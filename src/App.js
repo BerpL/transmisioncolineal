@@ -22,32 +22,8 @@ function App() {
             {/* <ExternalApp />
           </Route>
           <Route path="/compresor"> */}
-            <Home />
-          </Route>
-          <Route path="/alineamiento">
-            <Alineamiento />
-          </Route>
-          <Route path="/cambio-rodamientos">
-            <CambioRodamientos />
-          </Route>
-          <Route path="/montaje-subestacion-electrica">
-            <MontajeSubestacionElectrica />
-          </Route>
-          <Route path="/transmision">
             <Transmision />
-          </Route>
-          <Route path="/convertidor">
-            <Convertidor />
-          </Route>
-          <Route path="/grupo-electrogeno">
-            <GrupoElectrogeno />
-          </Route>
-          <Route path="/valvula">
-            <ValvulaPaso />
-          </Route>
-          <Route path="/desarmado-convertidor">
-            <DesarmadoConvertidor />
-          </Route>
+          </Route>          
         </Switch>
       </Router>
 
