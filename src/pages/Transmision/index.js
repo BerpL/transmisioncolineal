@@ -178,7 +178,7 @@ function Transmision() {
 
   return (
     <Container>
-      <VergeViewer src="/applications/transmision_colineal/transmision_colineal.html" title="Transmision" />
+      <VergeViewer src="/applications/transmision/transmision_colineal.html" title="Transmision" />
       <input
         id="estado_animacion"
         defaultValue="0"
@@ -203,25 +203,25 @@ function Transmision() {
       <Controls>
         <LeftArrow
           id="left_arrow"
-          src="applications/transmision_colineal/img/left_arrow.svg"
+          src="applications/transmision/img/left_arrow.svg"
           alt="left arrow"
           draggable="false"
         />
         <RightArrow
           id="right_arrow"
-          src="applications/transmision_colineal/img/right_arrow.svg"
+          src="applications/transmision/img/right_arrow.svg"
           alt="right arrow"
           draggable="false"
         />
         <TopArrow
           id="top_arrow"
-          src="applications/transmision_colineal/img/top_arrow.svg"
+          src="applications/transmision/img/top_arrow.svg"
           alt="top arrow"
           draggable="false"
         />
         <BotArrow
           id="bot_arrow"
-          src="applications/transmision_colineal/img/bot_arrow.svg"
+          src="applications/transmision/img/bot_arrow.svg"
           alt="bot arrow"
           draggable="false"
         />
