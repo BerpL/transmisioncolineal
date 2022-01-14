@@ -1,0 +1,120 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="858" scrolly="438.99999999999994" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="1028" scrolly="403" scale="1">
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="x:?t,Dgb.s0^c4;M@UT(" x="-830" y="-250">
+      <value name="VALUE">
+        <block type="objectList" id="_PtVQjIMk2gQKT`mJX8;">
+          <field name="FIELDNAME">protector_molino</field>
+        </block>
+      </value>
+      <statement name="DO_OVER">
+        <block type="outline" id="`95b0*=6f}iaGRks@YTm">
+          <field name="DO_WHAT">ENABLE</field>
+          <value name="TARGET">
+            <block type="objectList" id="t-[j((/hC`H48j*sM(rK">
+              <field name="FIELDNAME">protector_molino</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+      <statement name="DO_OUT">
+        <block type="outline" id="=DoP$[D2{tK,{,dj%Hx^">
+          <field name="DO_WHAT">DISABLE</field>
+          <value name="TARGET">
+            <block type="objectList" id="b:hD-.Z[]7QeP!lb)0CA">
+              <field name="FIELDNAME">protector_molino</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+      <next>
+        <block type="whenClicked" id="}Z]A/[(l,%fvLPzJr_n[">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" enableifmissed="false"></mutation>
+          <value name="VALUE">
+            <block type="objectList" id="?-5J]G`;J+.]KL:@}:~~">
+              <field name="FIELDNAME">protector_molino</field>
+            </block>
+          </value>
+          <statement name="DO">
+            <block type="tweenCameraExt" id="Hbyejqk?t6s~:gzZGKWt">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+              <value name="POSITION">
+                <block type="objectList" id="+f|1P4~gpT!fkR0XeJcy">
+                  <field name="FIELDNAME">hidraulic_view_point</field>
+                </block>
+              </value>
+              <value name="LOOKAT">
+                <block type="objectList" id="RCwoH:7g3ezMng:TDgN@">
+                  <field name="FIELDNAME">hidraulic_view</field>
+                </block>
+              </value>
+              <value name="DURATION">
+                <shadow type="math_number" id="oqy0-aW=R^e`/q4suIVa">
+                  <field name="NUM">1</field>
+                </shadow>
+              </value>
+            </block>
+          </statement>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="{tM0V]GN@Fi#Pt}Sw8b)" x="-830" y="-10">
+      <value name="VALUE">
+        <block type="objectList" id="~v,[.L.8B:wGaMIy7%~m">
+          <field name="FIELDNAME">molino_rodajes</field>
+        </block>
+      </value>
+      <statement name="DO_OVER">
+        <block type="outline" id="=6h`mp%q4,x1_t=iOKc5">
+          <field name="DO_WHAT">ENABLE</field>
+          <value name="TARGET">
+            <block type="objectList" id="I%:Piw+jTZ2Xervd:EJ7">
+              <field name="FIELDNAME">molino_rodajes</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+      <statement name="DO_OUT">
+        <block type="outline" id="n1/lLCdLB|tWEL*EQ4`a">
+          <field name="DO_WHAT">DISABLE</field>
+          <value name="TARGET">
+            <block type="objectList" id="_q0j#Mn/|?YU[ssdwrz:">
+              <field name="FIELDNAME">molino_rodajes</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+      <next>
+        <block type="whenClicked" id="wNCwc/fIg|Cv=5@o%cF^">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" enableifmissed="false"></mutation>
+          <value name="VALUE">
+            <block type="objectList" id="j*P,X!P9M9mE=4}kzY0@">
+              <field name="FIELDNAME">molino_rodajes</field>
+            </block>
+          </value>
+          <statement name="DO">
+            <block type="tweenCameraExt" id="gJmIB83Uo=m;!q)0,Fvh">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+              <value name="POSITION">
+                <block type="objectList" id="9eOWKti*0-1+[Ml.N0-d">
+                  <field name="FIELDNAME">molino_position_view</field>
+                </block>
+              </value>
+              <value name="LOOKAT">
+                <block type="objectList" id="Js/x?kX7+F6)a[[.DT@w">
+                  <field name="FIELDNAME">molino_position_direction</field>
+                </block>
+              </value>
+              <value name="DURATION">
+                <shadow type="math_number" id="|aDeN.94eW_JV*UHq!CH">
+                  <field name="NUM">1</field>
+                </shadow>
+              </value>
+            </block>
+          </statement>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1113.6" viewport-y="28" viewport-w="754.4" viewport-h="477" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

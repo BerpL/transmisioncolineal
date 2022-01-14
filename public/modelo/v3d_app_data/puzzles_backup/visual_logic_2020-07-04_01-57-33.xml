@@ -1,0 +1,265 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="858" scrolly="438.99999999999994" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="false" scrollx="958.2967595788177" scrolly="447.1503466264985" scale="0.9999999999999996">
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="x:?t,Dgb.s0^c4;M@UT(" x="-830" y="-250">
+      <value name="VALUE">
+        <block type="objectList" id="_PtVQjIMk2gQKT`mJX8;">
+          <field name="FIELDNAME">bomba</field>
+        </block>
+      </value>
+      <statement name="DO_OVER">
+        <block type="outline" id="`95b0*=6f}iaGRks@YTm">
+          <field name="DO_WHAT">ENABLE</field>
+          <value name="TARGET">
+            <block type="objectList" id="t-[j((/hC`H48j*sM(rK">
+              <field name="FIELDNAME">bomba</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+      <statement name="DO_OUT">
+        <block type="outline" id="=DoP$[D2{tK,{,dj%Hx^">
+          <field name="DO_WHAT">DISABLE</field>
+          <value name="TARGET">
+            <block type="objectList" id="b:hD-.Z[]7QeP!lb)0CA">
+              <field name="FIELDNAME">bomba</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+      <next>
+        <block type="whenClicked" id="}Z]A/[(l,%fvLPzJr_n[">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" enableifmissed="false"></mutation>
+          <value name="VALUE">
+            <block type="objectList" id="?-5J]G`;J+.]KL:@}:~~">
+              <field name="FIELDNAME">bomba</field>
+            </block>
+          </value>
+          <statement name="DO">
+            <block type="tweenCameraExt" id="Hbyejqk?t6s~:gzZGKWt">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+              <value name="POSITION">
+                <block type="objectList" id="+f|1P4~gpT!fkR0XeJcy">
+                  <field name="FIELDNAME">hidraulic_view_point</field>
+                </block>
+              </value>
+              <value name="LOOKAT">
+                <block type="objectList" id="RCwoH:7g3ezMng:TDgN@">
+                  <field name="FIELDNAME">hidraulic_view</field>
+                </block>
+              </value>
+              <value name="DURATION">
+                <shadow type="math_number" id="oqy0-aW=R^e`/q4suIVa">
+                  <field name="NUM">1</field>
+                </shadow>
+              </value>
+            </block>
+          </statement>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="{tM0V]GN@Fi#Pt}Sw8b)" x="-830" y="-10">
+      <value name="VALUE">
+        <block type="objectList" id="~v,[.L.8B:wGaMIy7%~m">
+          <field name="FIELDNAME">molino_rodajes</field>
+        </block>
+      </value>
+      <statement name="DO_OVER">
+        <block type="outline" id="=6h`mp%q4,x1_t=iOKc5">
+          <field name="DO_WHAT">ENABLE</field>
+          <value name="TARGET">
+            <block type="objectList" id="I%:Piw+jTZ2Xervd:EJ7">
+              <field name="FIELDNAME">molino_rodajes</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+      <statement name="DO_OUT">
+        <block type="outline" id="n1/lLCdLB|tWEL*EQ4`a">
+          <field name="DO_WHAT">DISABLE</field>
+          <value name="TARGET">
+            <block type="objectList" id="_q0j#Mn/|?YU[ssdwrz:">
+              <field name="FIELDNAME">molino_rodajes</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+      <next>
+        <block type="whenClicked" id="wNCwc/fIg|Cv=5@o%cF^">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" enableifmissed="false"></mutation>
+          <value name="VALUE">
+            <block type="objectList" id="j*P,X!P9M9mE=4}kzY0@">
+              <field name="FIELDNAME">molino_rodajes</field>
+            </block>
+          </value>
+          <statement name="DO">
+            <block type="tweenCameraExt" id="gJmIB83Uo=m;!q)0,Fvh">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+              <value name="POSITION">
+                <block type="objectList" id="9eOWKti*0-1+[Ml.N0-d">
+                  <field name="FIELDNAME">molino_position_view</field>
+                </block>
+              </value>
+              <value name="LOOKAT">
+                <block type="objectList" id="Js/x?kX7+F6)a[[.DT@w">
+                  <field name="FIELDNAME">molino_position_direction</field>
+                </block>
+              </value>
+              <value name="DURATION">
+                <shadow type="math_number" id="|aDeN.94eW_JV*UHq!CH">
+                  <field name="NUM">1</field>
+                </shadow>
+              </value>
+            </block>
+          </statement>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="z3a79{LF=_?Z:fa@eI+l" x="-830" y="210">
+      <value name="VALUE">
+        <block type="objectList" id="Q_#R9WF/!5unb@2M{-]C">
+          <field name="FIELDNAME">2500 Chute B006</field>
+        </block>
+      </value>
+      <statement name="DO_OVER">
+        <block type="outline" id="m8!}zAJEPk3{q3Yb-}dZ">
+          <field name="DO_WHAT">ENABLE</field>
+          <value name="TARGET">
+            <block type="objectList" id="{Fr|Q2Ki^;HFlDfu10J*">
+              <field name="FIELDNAME">2500 Chute B006</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+      <statement name="DO_OUT">
+        <block type="outline" id="WoR`^F)Q]#mGnTRXN|Pi">
+          <field name="DO_WHAT">DISABLE</field>
+          <value name="TARGET">
+            <block type="objectList" id="b9$6FMVWQkU8{5rwANPG">
+              <field name="FIELDNAME">2500 Chute B006</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+      <next>
+        <block type="whenClicked" id="S?kwz#@b`#[)a=`c494M">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" enableifmissed="false"></mutation>
+          <value name="VALUE">
+            <block type="objectList" id="WIWk!Q-.uA..EVt8jhoe">
+              <field name="FIELDNAME">2500 Chute B006</field>
+            </block>
+          </value>
+          <statement name="DO">
+            <block type="tweenCameraExt" id="0!1@,zeLrXAg)IWJIr.M">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+              <value name="POSITION">
+                <block type="objectList" id="#bGf.`Py/KYoz9r##;-Y">
+                  <field name="FIELDNAME">chute_view_position</field>
+                </block>
+              </value>
+              <value name="LOOKAT">
+                <block type="objectList" id="v:VVXt5%uID|[R7a9t:I">
+                  <field name="FIELDNAME">chute_view_direction</field>
+                </block>
+              </value>
+              <value name="DURATION">
+                <shadow type="math_number" id="Ei[(Y|+whk![v5]o:a@^">
+                  <field name="NUM">1</field>
+                </shadow>
+              </value>
+            </block>
+          </statement>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <tab name="Anotaciones" type="SecondaryTab" active="true" scrollx="-61" scrolly="98" scale="1">
+    <block xmlns="https://developers.google.com/blockly/xml" type="addAnnotation" id="c*4y(:XRUHz,*-%(ZU{," x="130" y="190">
+      <value name="ANNOTATION">
+        <shadow type="text" id="t:0qfReb0GN~C-5YJ-xb">
+          <field name="TEXT">1</field>
+        </shadow>
+      </value>
+      <value name="TARGET">
+        <block type="objectList" id="Qwf^NF`J3=[Sx!HX1n(`">
+          <field name="FIELDNAME">Chute_annotation</field>
+        </block>
+      </value>
+      <value name="CONTENTS">
+        <shadow type="text" id="gL1uNcrOvg@+$:uG-i3B">
+          <field name="TEXT">Chute Alimentador</field>
+        </shadow>
+      </value>
+      <value name="ID">
+        <shadow type="text" id="jw]VzU^ixRIO)}m-|G~g">
+          <field name="TEXT">an_1</field>
+        </shadow>
+      </value>
+      <next>
+        <block type="addAnnotation" id="/`DLsf?Q8)wXr;[6kx%1">
+          <value name="ANNOTATION">
+            <shadow type="text" id="@!uR2%FjQ+(OC=p--qG2">
+              <field name="TEXT">2</field>
+            </shadow>
+          </value>
+          <value name="TARGET">
+            <block type="objectList" id="Kvn2^udRDC($(VdvtY:w">
+              <field name="FIELDNAME">Molino_annotation</field>
+            </block>
+          </value>
+          <value name="CONTENTS">
+            <shadow type="text" id="B/Xa|N7VxV93?a/od_pA">
+              <field name="TEXT">Molino de bolas</field>
+            </shadow>
+          </value>
+          <value name="ID">
+            <shadow type="text" id="(%gv(9*dYt{CFqy9]tI+">
+              <field name="TEXT">an_2</field>
+            </shadow>
+          </value>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="addAnnotation" id="nIIA:w)vE{~Wx.L$`$`C" x="130" y="350">
+      <value name="ANNOTATION">
+        <shadow type="text" id="sA_^(ig^^8VanIAS@m7T">
+          <field name="TEXT">3</field>
+        </shadow>
+      </value>
+      <value name="TARGET">
+        <block type="objectList" id="Y/+u!6U4=jA5+ofsjKho">
+          <field name="FIELDNAME">bomba_ciclon_annotation</field>
+        </block>
+      </value>
+      <value name="CONTENTS">
+        <shadow type="text" id="#sKlxT@[Xt5.+iBxYS=z">
+          <field name="TEXT">Bomba de ciclones</field>
+        </shadow>
+      </value>
+      <value name="ID">
+        <shadow type="text" id="MeS`4Xh|=]CO9P0NiZ.9">
+          <field name="TEXT">an_3</field>
+        </shadow>
+      </value>
+      <next>
+        <block type="setTimeout" id=";-V*XMnp,-S=Ie[Sh-e%">
+          <value name="VALUE">
+            <shadow type="math_number" id="55j`K}+G=)k!kY]cTcLK">
+              <field name="NUM">5</field>
+            </shadow>
+          </value>
+          <statement name="DO">
+            <block type="closeAnnotation" id="-(bQOw1m3b;!%.8fc%#Q">
+              <value name="VALUE">
+                <block type="text" id="H?.FEN.6-P04,cQVR~~s">
+                  <field name="TEXT">3</field>
+                </block>
+              </value>
+            </block>
+          </statement>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1113.6" viewport-y="28" viewport-w="754.4" viewport-h="477" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
