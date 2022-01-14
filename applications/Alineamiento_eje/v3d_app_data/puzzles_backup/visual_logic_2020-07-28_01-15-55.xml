@@ -1,0 +1,322 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="875" scrolly="448.5" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="458.07804824005143" scrolly="782.2033626670718" scale="0.9999999999999996">
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenDraggedOver" id="}h.!eFc/DF^pbPr%R`j6" x="-710" y="-670">
+      <value name="VALUE">
+        <block type="objectList" id="v@$4Wv(h/CkFo{0{X_-m">
+          <field name="FIELDNAME">instancia_mov_2</field>
+        </block>
+      </value>
+      <statement name="DO_MOVE">
+        <block type="dragRotate" id="?13pi^{i7*up+0K.i|wo">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" enablespace="true"></mutation>
+          <field name="AXIS">Z</field>
+          <field name="SPACE_TYPE">LOCAL</field>
+          <value name="TARGETOBJ">
+            <block type="objectList" id="jZ(jrdX`|k)eWd-#Ry}j">
+              <field name="FIELDNAME">base_magnetica_palpador_control_cuerpo_base</field>
+            </block>
+          </value>
+          <next>
+            <block type="objConstraintAddLimit" id="-%2G.+gpgP4dVKBe;zqb">
+              <field name="MODE">ROT_Z</field>
+              <value name="CONSTRAINT">
+                <shadow type="text" id="B_7O[qTs6B`b0mR@j$43">
+                  <field name="TEXT">limit 1</field>
+                </shadow>
+              </value>
+              <value name="TARGETOBJ">
+                <block type="objectList" id="~9nZVblxiAARTRgCc[)b">
+                  <field name="FIELDNAME">base_magnetica_palpador_control_cuerpo_base</field>
+                </block>
+              </value>
+              <value name="MIN">
+                <shadow type="math_number" id="SC)T.?l_zJeZc`wGdL@k">
+                  <field name="NUM">0</field>
+                </shadow>
+              </value>
+              <value name="MAX">
+                <shadow type="math_number" id="uo[DMyUgAVi=!pp#XWoT">
+                  <field name="NUM">360</field>
+                </shadow>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+      <next>
+        <block type="whenDraggedOver" id="fy;4y0xX,%!8mxWOxx#{">
+          <value name="VALUE">
+            <block type="objectList" id="s2)[WP_-K0qLRdTr@QPy">
+              <field name="FIELDNAME">instancia_rot</field>
+            </block>
+          </value>
+          <statement name="DO_MOVE">
+            <block type="dragRotate" id="*Oq#HR?7Sc@/lO,-%40v">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" enablespace="true"></mutation>
+              <field name="AXIS">Y</field>
+              <field name="SPACE_TYPE">LOCAL</field>
+              <value name="TARGETOBJ">
+                <block type="objectList" id="a~Wg#i+wjU24#[8M2d_-">
+                  <field name="FIELDNAME">base_magnetica_palpador_control_cuerpo_base</field>
+                </block>
+              </value>
+              <next>
+                <block type="objConstraintAddLimit" id="]*%HBT+%/?PClQypO!$a">
+                  <field name="MODE">ROT_Y</field>
+                  <value name="CONSTRAINT">
+                    <shadow type="text" id="?sPIQ68_eNki#%EmS69Y">
+                      <field name="TEXT">limit 2</field>
+                    </shadow>
+                  </value>
+                  <value name="TARGETOBJ">
+                    <block type="objectList" id="_4M{gkB4Mq^Ym2$~VQ81">
+                      <field name="FIELDNAME">base_magnetica_palpador_control_cuerpo_base</field>
+                    </block>
+                  </value>
+                  <value name="MIN">
+                    <shadow type="math_number" id="Bc^ke.LQa{X/^aree~)%">
+                      <field name="NUM">0</field>
+                    </shadow>
+                  </value>
+                  <value name="MAX">
+                    <shadow type="math_number" id="W=UZfQ$kF`Whs2CQ$H4Q">
+                      <field name="NUM">360</field>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <next>
+            <block type="whenDraggedOver" id="jUyDU=E3CFOP^bDHYmzh">
+              <value name="VALUE">
+                <block type="objectList" id="cqgZ[;BZ{Qoaq!PA:9bQ">
+                  <field name="FIELDNAME">instancia_mov</field>
+                </block>
+              </value>
+              <statement name="DO_MOVE">
+                <block type="dragRotate" id="Kj9QN?ebw^l@tRtVld]T">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" enablespace="true"></mutation>
+                  <field name="AXIS">X</field>
+                  <field name="SPACE_TYPE">LOCAL</field>
+                  <value name="TARGETOBJ">
+                    <block type="objectList" id="o$4v[/-5bwE=`9JVZCmT">
+                      <field name="FIELDNAME">base_magnetica_palpador_control_cuerpo_base</field>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="objConstraintAddLimit" id="~^uqO9(h%p(*z|0?^a2~">
+                      <field name="MODE">ROT_X</field>
+                      <value name="CONSTRAINT">
+                        <shadow type="text" id="k%%lD{G4Qppn8[Et8FZb">
+                          <field name="TEXT">limit 3</field>
+                        </shadow>
+                      </value>
+                      <value name="TARGETOBJ">
+                        <block type="objectList" id="o`EmVBIbjv?aWxpHCpTU">
+                          <field name="FIELDNAME">base_magnetica_palpador_control_cuerpo_base</field>
+                        </block>
+                      </value>
+                      <value name="MIN">
+                        <shadow type="math_number" id="[N[Yss*HzkSocF.7O_;X">
+                          <field name="NUM">-90</field>
+                        </shadow>
+                      </value>
+                      <value name="MAX">
+                        <shadow type="math_number" id="JZp$4**}aKy,ccXB9rf5">
+                          <field name="NUM">90</field>
+                        </shadow>
+                      </value>
+                    </block>
+                  </next>
+                </block>
+              </statement>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenDraggedOver" id="jV/])!N0nH:mkc2p.jr[" x="-710" y="-150">
+      <value name="VALUE">
+        <block type="objectList" id="zBqP8F0]26dph9Ya5b[t">
+          <field name="FIELDNAME">instancia_rot_2</field>
+        </block>
+      </value>
+      <statement name="DO_MOVE">
+        <block type="dragRotate" id="cq:nrgfhbIK9Q-MV.D(i">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" enablespace="true"></mutation>
+          <field name="AXIS">Y</field>
+          <field name="SPACE_TYPE">LOCAL</field>
+          <value name="TARGETOBJ">
+            <block type="objectList" id="=:JUvH{a.n?UQ{Rg)Pex">
+              <field name="FIELDNAME">base_magnetica_palpador_control_palpador</field>
+            </block>
+          </value>
+          <next>
+            <block type="objConstraintAddLimit" id="R}GFH4oGbC.[QqxWFJHy">
+              <field name="MODE">ROT_Y</field>
+              <value name="CONSTRAINT">
+                <shadow type="text" id="{5N~[)@|}tf-zdHrR_gc">
+                  <field name="TEXT">limit 4</field>
+                </shadow>
+              </value>
+              <value name="TARGETOBJ">
+                <block type="objectList" id="x!nfE0evGlTY5*X/0#M0">
+                  <field name="FIELDNAME">base_magnetica_palpador_control_palpador</field>
+                </block>
+              </value>
+              <value name="MIN">
+                <shadow type="math_number" id="^PPzF9!1X$mJ8eOF@U,6">
+                  <field name="NUM">0</field>
+                </shadow>
+              </value>
+              <value name="MAX">
+                <shadow type="math_number" id="[`iM-?VbY~,;siFuG%uw">
+                  <field name="NUM">360</field>
+                </shadow>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+      <next>
+        <block type="whenDraggedOver" id="W[F)RpP$b*i[#,#`{$_v">
+          <value name="VALUE">
+            <block type="objectList" id="fmO{PeZBq?(?[}M17V[?">
+              <field name="FIELDNAME">instancia_mov_4</field>
+            </block>
+          </value>
+          <statement name="DO_MOVE">
+            <block type="dragRotate" id="?d#Ju6M=M(|SYp40u`gN">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" enablespace="true"></mutation>
+              <field name="AXIS">Z</field>
+              <field name="SPACE_TYPE">LOCAL</field>
+              <value name="TARGETOBJ">
+                <block type="objectList" id="G*;TZFMR4nYF+##.mnX^">
+                  <field name="FIELDNAME">base_magnetica_palpador_control_palpador</field>
+                </block>
+              </value>
+              <next>
+                <block type="objConstraintAddLimit" id="4:]OZ!F2B78RD((foe|)">
+                  <field name="MODE">ROT_Z</field>
+                  <value name="CONSTRAINT">
+                    <shadow type="text" id="L(jtiQ:sUWTj+jS.`Ue_">
+                      <field name="TEXT">limit 5</field>
+                    </shadow>
+                  </value>
+                  <value name="TARGETOBJ">
+                    <block type="objectList" id="aKs~S4XAh`{e@fweO:Y@">
+                      <field name="FIELDNAME">base_magnetica_palpador_control_palpador</field>
+                    </block>
+                  </value>
+                  <value name="MIN">
+                    <shadow type="math_number" id="u{8v_EqR{XO@AECkOiPH">
+                      <field name="NUM">0</field>
+                    </shadow>
+                  </value>
+                  <value name="MAX">
+                    <shadow type="math_number" id="BEc~ZLgNa?Z2a:Hj?v[z">
+                      <field name="NUM">360</field>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <next>
+            <block type="whenDraggedOver" id="b4uX?%@N}j#S9HeP*Y~j">
+              <value name="VALUE">
+                <block type="objectList" id="euny#qu_M+kHA]{|+b)x">
+                  <field name="FIELDNAME">instancia_mov_5</field>
+                </block>
+              </value>
+              <statement name="DO_MOVE">
+                <block type="dragRotate" id="M+G(OA-#DZJ6VhMm]Sv|">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" enablespace="true"></mutation>
+                  <field name="AXIS">X</field>
+                  <field name="SPACE_TYPE">LOCAL</field>
+                  <value name="TARGETOBJ">
+                    <block type="objectList" id=".cKQD0YoL6$nqN@nSr0n">
+                      <field name="FIELDNAME">base_magnetica_palpador_control_palpador</field>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="objConstraintAddLimit" id="@v_o%XD+-**RV].]iT$d">
+                      <field name="MODE">ROT_X</field>
+                      <value name="CONSTRAINT">
+                        <shadow type="text" id=";pyQ,BuLpp;s%fuCiKua">
+                          <field name="TEXT">limit 6</field>
+                        </shadow>
+                      </value>
+                      <value name="TARGETOBJ">
+                        <block type="objectList" id="!c[yzWh$),CB?pS3X1{a">
+                          <field name="FIELDNAME">base_magnetica_palpador_control_palpador</field>
+                        </block>
+                      </value>
+                      <value name="MIN">
+                        <shadow type="math_number" id="VRx7H(^onNRjqj=6!rfw">
+                          <field name="NUM">0</field>
+                        </shadow>
+                      </value>
+                      <value name="MAX">
+                        <shadow type="math_number" id="cE:6[2dP{}*Bj66JkA_F">
+                          <field name="NUM">360</field>
+                        </shadow>
+                      </value>
+                    </block>
+                  </next>
+                </block>
+              </statement>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenDraggedOver" id="/$YA,%ouPWtf.R0qP0GG" x="470" y="-50">
+      <value name="VALUE">
+        <block type="objectList" id="%Wi}|pT/n|8}C[Ju(Km5">
+          <field name="FIELDNAME">instancia_mov_3</field>
+        </block>
+      </value>
+      <statement name="DO_MOVE">
+        <block type="dragRotate" id=",PPP[qb[F74Vs[v~6~rR">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" enablespace="true"></mutation>
+          <field name="AXIS">X</field>
+          <field name="SPACE_TYPE">LOCAL</field>
+          <value name="TARGETOBJ">
+            <block type="objectList" id="9h]()u3^9_:990PYClTF">
+              <field name="FIELDNAME">base_magnetica_palpador_control_cuerpo</field>
+            </block>
+          </value>
+          <next>
+            <block type="objConstraintAddLimit" id="L5TX1g1:]I%$#=30;lI(">
+              <field name="MODE">ROT_X</field>
+              <value name="CONSTRAINT">
+                <shadow type="text" id="7*sNXED1eV^N`iLCf4dS">
+                  <field name="TEXT">limit 7</field>
+                </shadow>
+              </value>
+              <value name="TARGETOBJ">
+                <block type="objectList" id="E-/51bt_@u[2}oS2qKe?">
+                  <field name="FIELDNAME">base_magnetica_palpador_control_cuerpo</field>
+                </block>
+              </value>
+              <value name="MIN">
+                <shadow type="math_number" id=",R2e:.h,R25,(_:=+*q2">
+                  <field name="NUM">-160</field>
+                </shadow>
+              </value>
+              <value name="MAX">
+                <shadow type="math_number" id="jt-06gJl/#-_s8yI5k/a">
+                  <field name="NUM">160</field>
+                </shadow>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1134" viewport-y="28" viewport-w="768" viewport-h="486.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

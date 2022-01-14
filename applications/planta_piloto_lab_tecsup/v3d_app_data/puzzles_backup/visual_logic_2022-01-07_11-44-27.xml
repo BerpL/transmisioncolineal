@@ -1,0 +1,41 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="659" scrolly="384.99999999999994" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="540.1130762622058" scrolly="524.431917700764" scale="0.7404322273126936">
+    <block xmlns="https://developers.google.com/blockly/xml" type="playAnimationAdv" id="2vsZG:(%04*b|CdD}o!~" x="-590" y="-110">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+      <field name="REVERSED">FALSE</field>
+      <field name="LOOP">AUTO</field>
+      <value name="VALUE">
+        <shadow type="animationList" id="PFw.bY|kKYmTUz0_R?fM">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="getAnimations" id="Hp@tvS-EhyTMNBDfVYsv">
+          <value name="OBJECTINPUT">
+            <shadow type="objectList" id="^(D2?o/.04g5.D|p^Vj=">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id=")81+hK_k[9D7nX%+0Hx9">
+              <field name="FIELDNAME">planta_piloto</field>
+            </block>
+          </value>
+        </block>
+      </value>
+      <value name="FROM">
+        <block type="math_number" id="B|xlwojy5L$L@*!uR=mb">
+          <field name="NUM">0</field>
+        </block>
+      </value>
+      <value name="TO">
+        <block type="math_number" id="[S=H2k7arpcYqKGVrN@q">
+          <field name="NUM">1000</field>
+        </block>
+      </value>
+      <value name="SPEED">
+        <block type="math_number" id=")MI]lI,9R0C!Q-/%AG~)">
+          <field name="NUM">0</field>
+        </block>
+      </value>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1007.4000000000001" viewport-y="28" viewport-w="683.6" viewport-h="423" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

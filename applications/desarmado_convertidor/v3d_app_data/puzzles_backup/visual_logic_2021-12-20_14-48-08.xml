@@ -1,0 +1,66 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="true" scrollx="803.0441284179688" scrolly="577.3076171875" scale="0.7912092655287302">
+    <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="V4}^/qcJC%9T#U^}dLCC" x="-910" y="-430">
+      <field name="LOAD_COMP_ASSETS">FALSE</field>
+      <field name="FULLSCREEN">TRUE</field>
+      <field name="BKG_TRANSPARENCY">FALSE</field>
+      <field name="PRESERVE_DRAW_BUF">FALSE</field>
+      <field name="FADE_ANNOTATIONS">TRUE</field>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="initPreloader" id="R]%/7A9FVfS+mynau(uK" x="-910" y="-230">
+      <statement name="DO_PROGRESS">
+        <block type="setHTMLElemAttribute" id="f[7AH=o/%;X`A8YQ2F^8">
+          <field name="ATTRIBUTE">innerHTML</field>
+          <field name="PARENT">TRUE</field>
+          <value name="VALUE">
+            <block type="text_join" id="c,)RSEKRk;!|f+6mZtXD">
+              <mutation items="2"/>
+              <value name="ADD0">
+                <block type="percentage" id="TrTsU51RI6/X%P5sc06@"/>
+              </value>
+              <value name="ADD1">
+                <block type="text" id="7ApFeFAYY+s|9bXRef?M">
+                  <field name="TEXT">%</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <value name="ID">
+            <shadow type="text" id="Lj*cGK4MkgvQPmWzS?DM">
+              <field name="TEXT"/>
+            </shadow>
+            <block type="text" id="mRF%6ADe{oD8kI2N?(Zo">
+              <field name="TEXT">loading__progress_number</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+      <statement name="DO_END">
+        <block type="setHTMLElemStyle" id="N_jz8ceFHy:lIo]XWuT/">
+          <field name="PROPERTY">display</field>
+          <field name="PARENT">TRUE</field>
+          <value name="VALUE">
+            <block type="text" id="#dEZ%a0c1=yZ{{d)HS1M">
+              <field name="TEXT">none</field>
+            </block>
+          </value>
+          <value name="ID">
+            <shadow type="text">
+              <field name="TEXT"/>
+            </shadow>
+            <block type="text" id="|OIhWzr*PhaCP[PcHvt?">
+              <field name="TEXT">preloader_screen</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <tab name="main" type="MainTab" active="false" scrollx="2347" scrolly="1612" scale="1">
+    <block xmlns="https://developers.google.com/blockly/xml" type="procedures_defnoreturn" id="{[#io2tG~0RZt;;P;onO" x="-2150" y="-1490">
+      <field name="NAME">do something</field>
+      <comment pinned="false" h="80" w="160">Describe this function...</comment>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1134" viewport-y="28" viewport-w="768" viewport-h="477.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

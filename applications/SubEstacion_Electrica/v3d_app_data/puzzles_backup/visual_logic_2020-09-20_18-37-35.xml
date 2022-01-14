@@ -1,0 +1,48 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="true" scrollx="534" scrolly="439.5" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="initPreloader" id="Z,f_]%%tPJO9]r*pZ8.I" x="-510" y="-350">
+      <statement name="DO_PROGRESS">
+        <block type="setHTMLElemAttribute" id="FHKjflw/hP[CE@=mvA|q">
+          <field name="ATTRIBUTE">innerHTML</field>
+          <field name="PARENT">TRUE</field>
+          <value name="VALUE">
+            <block type="text_join" id="*Mb1)8if?DPT53(N3oOQ">
+              <mutation items="2"/>
+              <value name="ADD0">
+                <block type="percentage" id="+zffYU0^HSUE5)9hl?Tr"/>
+              </value>
+              <value name="ADD1">
+                <block type="text" id="0dH;sZQi1~~5:Np,*)4Y">
+                  <field name="TEXT">%</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <value name="ID">
+            <block type="text" id=";~QRDw8l+g$zBa^SQ3m2">
+              <field name="TEXT">loading_percentage</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+      <statement name="DO_END">
+        <block type="setHTMLElemStyle" id="!6~T6O,Kpz9SS82hC+5]">
+          <field name="PROPERTY">display</field>
+          <field name="PARENT">TRUE</field>
+          <value name="VALUE">
+            <block type="text" id="pAd}Y,]b(78A}r*Zb5r^">
+              <field name="TEXT">none</field>
+            </block>
+          </value>
+          <value name="ID">
+            <block type="text" id="AWZ6/hy)z4cx_r5!!2-R">
+              <field name="TEXT">preloader_screen</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <tab name="main" type="MainTab" active="false" scrollx="534" scrolly="439.5" scale="0.9"></tab>
+  <editorsettings viewport-x="724.8" viewport-y="28" viewport-w="495.2" viewport-h="477.5" viewport-hidden="false" toolbox-library-mode="true" toolbox-minimized-mode="false"></editorsettings>
+</xml>

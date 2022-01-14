@@ -1,0 +1,349 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="767" scrolly="446.5" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="initPreloader" id="lM6,/P}`wOjKk)/[kmT`" x="-690" y="-410">
+      <statement name="DO_PROGRESS">
+        <block type="setHTMLElemAttribute" id="=.XOxj;FVIv-6Nc%0|J0">
+          <field name="ATTRIBUTE">innerHTML</field>
+          <field name="PARENT">TRUE</field>
+          <value name="VALUE">
+            <block type="text_join" id="wxvz?[yp!(SEff,8AU|4">
+              <mutation items="2"/>
+              <value name="ADD0">
+                <block type="percentage" id="5@NE[-qas1=tpp#!-9HK"/>
+              </value>
+              <value name="ADD1">
+                <block type="text" id="u,]lc^t$yx_C]q+--Bo,">
+                  <field name="TEXT">%</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <value name="ID">
+            <block type="text" id="?TjOZzO8@~TUbc#uBE;H">
+              <field name="TEXT">loading_percentage</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+      <statement name="DO_END">
+        <block type="setHTMLElemStyle" id="Unes`Z[O:^GtE3uHdxeW">
+          <field name="PROPERTY">display</field>
+          <field name="PARENT">TRUE</field>
+          <value name="VALUE">
+            <block type="text" id="8wkWPL!^)H]C`:Iq.)Jt">
+              <field name="TEXT">none</field>
+            </block>
+          </value>
+          <value name="ID">
+            <block type="text" id="~|(_{%N|0{-$$EY;Uz}u">
+              <field name="TEXT">preloader_screen</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <tab name="main" type="MainTab" active="false" scrollx="767" scrolly="446.5" scale="0.9"></tab>
+  <tab name="1. Desmontaje" type="SecondaryTab" active="false" scrollx="-48.22854237079855" scrolly="-0.19999999999976126" scale="0.8999999999999999">
+    <variables xmlns="https://developers.google.com/blockly/xml">
+      <variable id="6ppu,H{1t,s)Kqwrn$vf" type="">animation_counter</variable>
+    </variables>
+    <block xmlns="https://developers.google.com/blockly/xml" type="variables_set" id="EX=Z]AKXLQE]n6$kCR6W" x="410" y="190">
+      <field name="VAR" id="6ppu,H{1t,s)Kqwrn$vf">animation_counter</field>
+      <value name="VALUE">
+        <block type="math_number" id="onH8#]M=/^8BgK1CP|uu">
+          <field name="NUM">0</field>
+        </block>
+      </value>
+      <next>
+        <block type="eventHTMLElem" id="^RF|C?$3}x@xWL35[nh7">
+          <field name="EVENT">click</field>
+          <field name="PARENT">TRUE</field>
+          <value name="ID">
+            <block type="text" id=";IKU/M-.A$3?h!dtB`DZ">
+              <field name="TEXT">pro1-btn</field>
+            </block>
+          </value>
+          <statement name="DO">
+            <block type="console.log" id="AYuriuj.KCwCJqeku47y">
+              <value name="VALUE">
+                <shadow type="text">
+                  <field name="TEXT">Hello, Verge!</field>
+                </shadow>
+                <block type="text" id="kBg33HVCxNVd}=Gve6Kz">
+                  <field name="TEXT">1. Desmontaje de la Carcasa del motor</field>
+                </block>
+              </value>
+              <next>
+                <block type="tweenCameraExt" id="[ks#)E{uEf):HR$o|A`2">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+                  <field name="MOVEMENT_TYPE">LINEAR</field>
+                  <value name="DURATION">
+                    <shadow type="math_number" id="ow*9MV-?7V5Z+X7p@xA1">
+                      <field name="NUM">3</field>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <next>
+            <block type="eventHTMLElem" id="8lBE|3sebA|h1HXrt{jq">
+              <field name="EVENT">click</field>
+              <field name="PARENT">TRUE</field>
+              <value name="ID">
+                <block type="text" id="(-y$uU{8yVS~-Pk{7#(*">
+                  <field name="TEXT">pro1-paso1</field>
+                </block>
+              </value>
+              <statement name="DO">
+                <block type="procedures_callnoreturn" id="8W9,k/.A^(Q_L}#HUDoT">
+                  <mutation name="demontaje-1"/>
+                </block>
+              </statement>
+              <next>
+                <block type="eventHTMLElem" id="k}sCNz^uB-`r~b!MTB7r">
+                  <field name="EVENT">click</field>
+                  <field name="PARENT">TRUE</field>
+                  <value name="ID">
+                    <block type="text" id="$$7}1C9bVUBp)JnZfT6.">
+                      <field name="TEXT">pro1-paso2</field>
+                    </block>
+                  </value>
+                  <statement name="DO">
+                    <block type="procedures_callnoreturn" id="/9ck03oQw=}gRKS}0EPB">
+                      <mutation name="demontaje-2"/>
+                    </block>
+                  </statement>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="procedures_defnoreturn" id=";kC`8g=8#U+mG-rF*K[f" x="151" y="306">
+      <field name="NAME">demontaje-1</field>
+      <comment pinned="false" h="80" w="160">Describe this function...</comment>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="procedures_defnoreturn" id="ICi5!r?qvr$)yK}1Z3F=" x="151" y="383">
+      <field name="NAME">demontaje-2</field>
+      <comment pinned="false" h="80" w="160">Describe this function...</comment>
+    </block>
+  </tab>
+  <tab name="2. Cambio Rodamiento" type="SecondaryTab" active="true" scrollx="-292.3681849933655" scrolly="147.76932394827986" scale="0.8227024747918819">
+    <variables xmlns="https://developers.google.com/blockly/xml">
+      <variable id="6ppu,H{1t,s)Kqwrn$vf" type="">animation_counter</variable>
+    </variables>
+    <block xmlns="https://developers.google.com/blockly/xml" type="variables_set" id=".-y){?0Xkb`k9OOlg3SG" x="610" y="130">
+      <field name="VAR" id="6ppu,H{1t,s)Kqwrn$vf">animation_counter</field>
+      <value name="VALUE">
+        <block type="math_number" id="#WeabT~zIpcQe5DnFJ3z">
+          <field name="NUM">0</field>
+        </block>
+      </value>
+      <next>
+        <block type="eventHTMLElem" id="DbK)hrSx*+-DJ-D:tS|s">
+          <field name="EVENT">click</field>
+          <field name="PARENT">TRUE</field>
+          <value name="ID">
+            <block type="text" id="q@gj~^zM$L;o`yE4z))c">
+              <field name="TEXT">pro2-btn</field>
+            </block>
+          </value>
+          <statement name="DO">
+            <block type="console.log" id="$.s?kOvBxLlKQCHS:A:E">
+              <value name="VALUE">
+                <shadow type="text">
+                  <field name="TEXT">Hello, Verge!</field>
+                </shadow>
+                <block type="text" id="5qu{o5sR::B$DcHla[6(">
+                  <field name="TEXT">2. Cambio de Rodamiento</field>
+                </block>
+              </value>
+              <next>
+                <block type="tweenCameraExt" id="]/{7ivAED=HVpAy(/q6U">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+                  <field name="MOVEMENT_TYPE">LINEAR</field>
+                  <value name="DURATION">
+                    <shadow type="math_number" id="03,S(-mf`$dH+g0bIyhv">
+                      <field name="NUM">3</field>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <next>
+            <block type="eventHTMLElem" id="kb4c@]Fa6[Pc;W(fpJG9">
+              <field name="EVENT">click</field>
+              <field name="PARENT">TRUE</field>
+              <value name="ID">
+                <block type="text" id="MBG]3U-VDeDA|C)peh5?">
+                  <field name="TEXT">pro2-paso1</field>
+                </block>
+              </value>
+              <statement name="DO">
+                <block type="procedures_callnoreturn" id="#c`Aa3fJ*ruM!9gw`yS8">
+                  <mutation name="cambio-1"/>
+                </block>
+              </statement>
+              <next>
+                <block type="eventHTMLElem" id=",69JG{|TT[~s$46q]!UX">
+                  <field name="EVENT">click</field>
+                  <field name="PARENT">TRUE</field>
+                  <value name="ID">
+                    <block type="text" id=":YQNTOP8wftiF8V[F)^j">
+                      <field name="TEXT">pro2-paso2</field>
+                    </block>
+                  </value>
+                  <statement name="DO">
+                    <block type="procedures_callnoreturn" id="DGQ@`W%[,xuskT,iO?s+">
+                      <mutation name="cambio-2"/>
+                    </block>
+                  </statement>
+                  <next>
+                    <block type="eventHTMLElem" id="MOI-G2]#|ez$D^YRE3$i">
+                      <field name="EVENT">click</field>
+                      <field name="PARENT">TRUE</field>
+                      <value name="ID">
+                        <block type="text" id=",{]cDtNx8k)Rc`b3x5eY">
+                          <field name="TEXT">pro2-paso3</field>
+                        </block>
+                      </value>
+                      <statement name="DO">
+                        <block type="procedures_callnoreturn" id="{7(W{);b:0j:Pn;/Ro=]">
+                          <mutation name="cambio-3"/>
+                        </block>
+                      </statement>
+                      <next>
+                        <block type="eventHTMLElem" id="F#YUOb-a;R7~zhb#zM{.">
+                          <field name="EVENT">click</field>
+                          <field name="PARENT">TRUE</field>
+                          <value name="ID">
+                            <block type="text" id="l8RO+IySr#)y]%_IK!Qi">
+                              <field name="TEXT">pro2-paso4</field>
+                            </block>
+                          </value>
+                          <statement name="DO">
+                            <block type="procedures_callnoreturn" id=";GMKMJz?F6}-do*~fT8/">
+                              <mutation name="cambio-4"/>
+                            </block>
+                          </statement>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="procedures_defnoreturn" id="GG!MrG5m#:.P1iR0bT9Z" x="326" y="304">
+      <field name="NAME">cambio-1</field>
+      <comment pinned="false" h="80" w="160">Describe this function...</comment>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="procedures_defnoreturn" id="rN[Wb!*F;!CkB*UJ~~:G" x="326" y="381">
+      <field name="NAME">cambio-2</field>
+      <comment pinned="false" h="80" w="160">Describe this function...</comment>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="procedures_defnoreturn" id="6Rr~Z?J71pbYQsR7T763" x="326" y="458">
+      <field name="NAME">cambio-3</field>
+      <comment pinned="false" h="80" w="160">Describe this function...</comment>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="procedures_defnoreturn" id="cKWw`#`91pMLxm%UHONl" x="326" y="535">
+      <field name="NAME">cambio-4</field>
+      <comment pinned="false" h="80" w="160">Describe this function...</comment>
+    </block>
+  </tab>
+  <tab name="3. Montaje" type="SecondaryTab" active="false" scrollx="-185.52389526367188" scrolly="79" scale="1">
+    <variables xmlns="https://developers.google.com/blockly/xml">
+      <variable id="6ppu,H{1t,s)Kqwrn$vf" type="">animation_counter</variable>
+    </variables>
+    <block xmlns="https://developers.google.com/blockly/xml" type="variables_set" id="Xomw{!:iXrG.x@.B?=^t" x="470" y="130">
+      <field name="VAR" id="6ppu,H{1t,s)Kqwrn$vf">animation_counter</field>
+      <value name="VALUE">
+        <block type="math_number" id="V:,BV-*pRg|[mWJ?H!@E">
+          <field name="NUM">0</field>
+        </block>
+      </value>
+      <next>
+        <block type="eventHTMLElem" id="[cly$B5Ntw8$Jn:JfSni">
+          <field name="EVENT">click</field>
+          <field name="PARENT">TRUE</field>
+          <value name="ID">
+            <block type="text" id="A5-y3isb@X`KL0Ce8e1%">
+              <field name="TEXT">pro3-btn</field>
+            </block>
+          </value>
+          <statement name="DO">
+            <block type="console.log" id="/YN{M@Z,Q1$rE7jzK50u">
+              <value name="VALUE">
+                <shadow type="text">
+                  <field name="TEXT">Hello, Verge!</field>
+                </shadow>
+                <block type="text" id="Jbd5]!d9fpx#{`(E=9I!">
+                  <field name="TEXT">3 Desmontaje</field>
+                </block>
+              </value>
+              <next>
+                <block type="tweenCameraExt" id="bp#DILy4ATb%Hum2-J@%">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+                  <field name="MOVEMENT_TYPE">LINEAR</field>
+                  <value name="DURATION">
+                    <shadow type="math_number" id="y+F?ZE@*Q`CcFV=+dV|H">
+                      <field name="NUM">3</field>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <next>
+            <block type="eventHTMLElem" id="Lb:NJ[0URTMT6Y:_`yD2">
+              <field name="EVENT">click</field>
+              <field name="PARENT">TRUE</field>
+              <value name="ID">
+                <block type="text" id="fZUENU{(boX1,(qpm0^Q">
+                  <field name="TEXT">pro3-paso1</field>
+                </block>
+              </value>
+              <statement name="DO">
+                <block type="procedures_callnoreturn" id="Zj1Q]Zd[y:1X:]QLn0m`">
+                  <mutation name="montaje-1"/>
+                </block>
+              </statement>
+              <next>
+                <block type="eventHTMLElem" id="Yj{UIXerf(jiah^NtIR~">
+                  <field name="EVENT">click</field>
+                  <field name="PARENT">TRUE</field>
+                  <value name="ID">
+                    <block type="text" id="0yKfh`z8R8DZ6m^h@{IZ">
+                      <field name="TEXT">pro3-paso2</field>
+                    </block>
+                  </value>
+                  <statement name="DO">
+                    <block type="procedures_callnoreturn" id="YO!ara+|4@nHi[7YwW:V">
+                      <mutation name="montaje-2"/>
+                    </block>
+                  </statement>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="procedures_defnoreturn" id="k)dairy0%J+3fg:(FjF2" x="206" y="289">
+      <field name="NAME">montaje-1</field>
+      <comment pinned="false" h="80" w="160">Describe this function...</comment>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="procedures_defnoreturn" id="!l6-{(/zJgxzME(O{+b]" x="206" y="366">
+      <field name="NAME">montaje-2</field>
+      <comment pinned="false" h="80" w="160">Describe this function...</comment>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1518" viewport-y="28" viewport-w="1024" viewport-h="484.5" viewport-hidden="false" toolbox-library-mode="true" toolbox-minimized-mode="false"></editorsettings>
+</xml>

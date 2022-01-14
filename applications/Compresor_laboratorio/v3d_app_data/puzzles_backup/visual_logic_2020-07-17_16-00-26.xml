@@ -1,0 +1,1132 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="627.9999999999997" scrolly="376.0000000000001" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="false" scrollx="-1213.903824149129" scrolly="1265.8975774570936" scale="1">
+    <variables xmlns="https://developers.google.com/blockly/xml">
+      <variable id="3G)+1H!JAVE/Bu,:V)7o" type="">obj_animación1</variable>
+      <variable id="DnPQjlT=.OZ{y+O!P9ur" type="">animation1</variable>
+      <variable id="ejP?k#_f:Zl/$|VlP_!r" type="">animation2</variable>
+      <variable id="KGZ5tJBFKevj,M3bT6[i" type="">animation3</variable>
+      <variable id="b`.(4V4U`H!T;Fv:)Wor" type="">animation4</variable>
+      <variable id="S+~^NlORh=*h3UCnxY%)" type="">animation5</variable>
+      <variable id="P%aeE.:Qu`M@|t2BdCpL" type="">animation6</variable>
+      <variable id="o:SBonLi|~KpMR/dFzMK" type="">animation7</variable>
+      <variable id="0aJos2lmJrJC~GM{c=9%" type="">animation8</variable>
+      <variable id=",sD)[degSVXbitwzx]_i" type="">animation9</variable>
+      <variable id="8#2%N-XrdS2R6qbf)qOj" type="">animation10</variable>
+      <variable id="n~b;CgEt`5FL3(mNM7X7" type="">animation11</variable>
+      <variable id="`is4xXxg=DuzIFb(Wx-o" type="">animation12</variable>
+    </variables>
+    <block xmlns="https://developers.google.com/blockly/xml" type="variables_set" id="KUcVY`3oJRq=BG.ar0d!" x="1290" y="-1130">
+      <field name="VAR" id="3G)+1H!JAVE/Bu,:V)7o">obj_animación1</field>
+      <value name="VALUE">
+        <block type="lists_create_with" id="S@|P9i+wr1B@0yN_cMs+">
+          <mutation items="3"/>
+          <value name="ADD0">
+            <block type="objectList" id="Q(woYJ|di-X;8j!,[,3N">
+              <field name="FIELDNAME">Armature_perno_05_a_bone</field>
+            </block>
+          </value>
+          <value name="ADD1">
+            <block type="objectList" id="oYO9Ay[-E[)UHsaB]#?,">
+              <field name="FIELDNAME">Armature_perno_05_b_bone</field>
+            </block>
+          </value>
+          <value name="ADD2">
+            <block type="objectList" id="GdC{hBR4n*let*hxXjpn">
+              <field name="FIELDNAME">Armature_tubo_compresor_bone</field>
+            </block>
+          </value>
+        </block>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="variables_set" id="}x6ob-M/xd)(#M3u;HSI" x="1390" y="-990">
+      <field name="VAR" id="DnPQjlT=.OZ{y+O!P9ur">animation1</field>
+      <value name="VALUE">
+        <block type="dictCreateEmpty" id="pP=/I.qmb4agwwYfRr.v"/>
+      </value>
+      <next>
+        <block type="dictSet" id="=q|F,Vn$Mn8w^`JUyKvE">
+          <value name="DICT">
+            <block type="variables_get" id="Nt[X49.J6B_u;I?x*3i!">
+              <field name="VAR" id="DnPQjlT=.OZ{y+O!P9ur">animation1</field>
+            </block>
+          </value>
+          <value name="KEY">
+            <shadow type="text" id="lg)r{{OZ.GCrc13{c(d9">
+              <field name="TEXT">ini</field>
+            </shadow>
+          </value>
+          <value name="VALUE">
+            <block type="math_number" id="^.3`8{lBxjv)AO?_/H8y">
+              <field name="NUM">1</field>
+            </block>
+          </value>
+          <next>
+            <block type="dictSet" id="s#=53lR(;V*WN!s].7w|">
+              <value name="DICT">
+                <block type="variables_get" id="sSGV-[,{zuBa(Bxmzzod">
+                  <field name="VAR" id="DnPQjlT=.OZ{y+O!P9ur">animation1</field>
+                </block>
+              </value>
+              <value name="KEY">
+                <shadow type="text" id="2}o2^IekUC/fDl%Xu1EM">
+                  <field name="TEXT">end</field>
+                </shadow>
+              </value>
+              <value name="VALUE">
+                <block type="math_number" id="gyVDzy1,^e1ndi;j[T}/">
+                  <field name="NUM">310</field>
+                </block>
+              </value>
+              <next>
+                <block type="console.log" id="7fZ=C7VhWAgq}6HAC[V5">
+                  <value name="VALUE">
+                    <shadow type="text" id="^[TUA7h!0Wi#~?@D~9Vk">
+                      <field name="TEXT">Hello, Verge!</field>
+                    </shadow>
+                    <block type="variables_get" id="^bs3)0(rlkA#B9=9X+2R">
+                      <field name="VAR" id="DnPQjlT=.OZ{y+O!P9ur">animation1</field>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="variables_set" id="p{.N~*JTz5x^!++PzscL">
+                      <field name="VAR" id="ejP?k#_f:Zl/$|VlP_!r">animation2</field>
+                      <value name="VALUE">
+                        <block type="dictCreateEmpty" id="m39zkshkL8e0)hz[hzlM"/>
+                      </value>
+                      <next>
+                        <block type="dictSet" id="~3k%U5Bpwz_1Y/e8]=*G">
+                          <value name="DICT">
+                            <block type="variables_get" id="~lg%Tc}?~bGFkv#1IgRr">
+                              <field name="VAR" id="ejP?k#_f:Zl/$|VlP_!r">animation2</field>
+                            </block>
+                          </value>
+                          <value name="KEY">
+                            <shadow type="text" id="#y_+v!fk]!YkS#4~U4%V">
+                              <field name="TEXT">ini</field>
+                            </shadow>
+                          </value>
+                          <value name="VALUE">
+                            <block type="math_number" id="0:4ZFldN|lhqJeEHwEk:">
+                              <field name="NUM">310</field>
+                            </block>
+                          </value>
+                          <next>
+                            <block type="dictSet" id="VNp^(y*oN!VF2^[`w5+_">
+                              <value name="DICT">
+                                <block type="variables_get" id="%}6i,m**WXuNac]GM5Il">
+                                  <field name="VAR" id="ejP?k#_f:Zl/$|VlP_!r">animation2</field>
+                                </block>
+                              </value>
+                              <value name="KEY">
+                                <shadow type="text" id="U8o.HRQ)fKfPPv8y_~NT">
+                                  <field name="TEXT">end</field>
+                                </shadow>
+                              </value>
+                              <value name="VALUE">
+                                <block type="math_number" id="ob6Y0Tu?G{oLNsb=3j4Z">
+                                  <field name="NUM">570</field>
+                                </block>
+                              </value>
+                              <next>
+                                <block type="console.log" id="Y1bZzfx$@10j(Tlt*pfy">
+                                  <value name="VALUE">
+                                    <shadow type="text">
+                                      <field name="TEXT">Hello, Verge!</field>
+                                    </shadow>
+                                    <block type="variables_get" id=";+)fH`Xe`6DX+`EJR3}P">
+                                      <field name="VAR" id="ejP?k#_f:Zl/$|VlP_!r">animation2</field>
+                                    </block>
+                                  </value>
+                                  <next>
+                                    <block type="variables_set" id="tZ60U[eol.ESK!ub/Hye">
+                                      <field name="VAR" id="KGZ5tJBFKevj,M3bT6[i">animation3</field>
+                                      <value name="VALUE">
+                                        <block type="dictCreateEmpty" id="gwjW=L3vxhX.+h6+~bAi"/>
+                                      </value>
+                                      <next>
+                                        <block type="dictSet" id="2Wr},YO.,ibpn:Opw{KP">
+                                          <value name="DICT">
+                                            <block type="variables_get" id=")JD1oa.(syR`PF:jaNDc">
+                                              <field name="VAR" id="KGZ5tJBFKevj,M3bT6[i">animation3</field>
+                                            </block>
+                                          </value>
+                                          <value name="KEY">
+                                            <shadow type="text" id="+8o(3eSaE{ij4Or=7=o@">
+                                              <field name="TEXT">ini</field>
+                                            </shadow>
+                                          </value>
+                                          <value name="VALUE">
+                                            <block type="math_number" id="Xs_wwhO#b7_Pb;6!6cY!">
+                                              <field name="NUM">580</field>
+                                            </block>
+                                          </value>
+                                          <next>
+                                            <block type="dictSet" id="7.[s?:BMBo7ksl]gMFR8">
+                                              <value name="DICT">
+                                                <block type="variables_get" id="Nq,VgG8JBj0[CtXl]_HA">
+                                                  <field name="VAR" id="KGZ5tJBFKevj,M3bT6[i">animation3</field>
+                                                </block>
+                                              </value>
+                                              <value name="KEY">
+                                                <shadow type="text" id="dJe=87wRmte*prvu2ER_">
+                                                  <field name="TEXT">end</field>
+                                                </shadow>
+                                              </value>
+                                              <value name="VALUE">
+                                                <block type="math_number" id="%=bg2X.T=t4xuOE:v(Jf">
+                                                  <field name="NUM">870</field>
+                                                </block>
+                                              </value>
+                                              <next>
+                                                <block type="console.log" id="m83SjZs1~iJw!P:V0CDs">
+                                                  <value name="VALUE">
+                                                    <shadow type="text">
+                                                      <field name="TEXT">Hello, Verge!</field>
+                                                    </shadow>
+                                                    <block type="variables_get" id="MNt[mwfc5}N$}B=F?#FH">
+                                                      <field name="VAR" id="KGZ5tJBFKevj,M3bT6[i">animation3</field>
+                                                    </block>
+                                                  </value>
+                                                  <next>
+                                                    <block type="variables_set" id="IVN0S_9]@;Da%0FiUYg/">
+                                                      <field name="VAR" id="b`.(4V4U`H!T;Fv:)Wor">animation4</field>
+                                                      <value name="VALUE">
+                                                        <block type="dictCreateEmpty" id="1]7b@yP4^#gA8-iK)l:Z"/>
+                                                      </value>
+                                                      <next>
+                                                        <block type="dictSet" id="G4RL?ewD74.@vRt544y)">
+                                                          <value name="DICT">
+                                                            <block type="variables_get" id="*3%UawZv,t7#Lt}.:DNN">
+                                                              <field name="VAR" id="b`.(4V4U`H!T;Fv:)Wor">animation4</field>
+                                                            </block>
+                                                          </value>
+                                                          <value name="KEY">
+                                                            <shadow type="text" id="a-(8J;EU^jmLBWHmrOY%">
+                                                              <field name="TEXT">ini</field>
+                                                            </shadow>
+                                                          </value>
+                                                          <value name="VALUE">
+                                                            <block type="math_number" id="~Kb4~yEuBil2HE@e9kQD">
+                                                              <field name="NUM">880</field>
+                                                            </block>
+                                                          </value>
+                                                          <next>
+                                                            <block type="dictSet" id="w;3:BfwTN6W[uS?LJgRh">
+                                                              <value name="DICT">
+                                                                <block type="variables_get" id="KD}}YPc1Oc,^1OL,7J6w">
+                                                                  <field name="VAR" id="b`.(4V4U`H!T;Fv:)Wor">animation4</field>
+                                                                </block>
+                                                              </value>
+                                                              <value name="KEY">
+                                                                <shadow type="text" id="vv8W69D!|f@3]C+Pg@d-">
+                                                                  <field name="TEXT">end</field>
+                                                                </shadow>
+                                                              </value>
+                                                              <value name="VALUE">
+                                                                <block type="math_number" id="E+H0ADX{CKc+A%gVaVk5">
+                                                                  <field name="NUM">1080</field>
+                                                                </block>
+                                                              </value>
+                                                              <next>
+                                                                <block type="console.log" id="U[9,/g-}%nia$blW!))+">
+                                                                  <value name="VALUE">
+                                                                    <shadow type="text">
+                                                                      <field name="TEXT">Hello, Verge!</field>
+                                                                    </shadow>
+                                                                    <block type="variables_get" id=";%mvB1CKUJ/KA5}gYTFY">
+                                                                      <field name="VAR" id="b`.(4V4U`H!T;Fv:)Wor">animation4</field>
+                                                                    </block>
+                                                                  </value>
+                                                                  <next>
+                                                                    <block type="variables_set" id="CK3LsJ*C0xM(sUqIN-|C">
+                                                                      <field name="VAR" id="S+~^NlORh=*h3UCnxY%)">animation5</field>
+                                                                      <value name="VALUE">
+                                                                        <block type="dictCreateEmpty" id="wn0|%aiFUQ-}PSv/A!hT"/>
+                                                                      </value>
+                                                                      <next>
+                                                                        <block type="dictSet" id=",GEU4Yr|u*peXHG3nC4E">
+                                                                          <value name="DICT">
+                                                                            <block type="variables_get" id="J-1dlUV}x6O13-`x5zKy">
+                                                                              <field name="VAR" id="S+~^NlORh=*h3UCnxY%)">animation5</field>
+                                                                            </block>
+                                                                          </value>
+                                                                          <value name="KEY">
+                                                                            <shadow type="text" id="Z+`P2:Hom2-|}4JBM:Oh">
+                                                                              <field name="TEXT">ini</field>
+                                                                            </shadow>
+                                                                          </value>
+                                                                          <value name="VALUE">
+                                                                            <block type="math_number" id="x(7oJ_UA`WC8VH|Cik[0">
+                                                                              <field name="NUM">1080</field>
+                                                                            </block>
+                                                                          </value>
+                                                                          <next>
+                                                                            <block type="dictSet" id=":eCS|j(cgj07OO,,W.h/">
+                                                                              <value name="DICT">
+                                                                                <block type="variables_get" id="~t166xo3`bYdRIV.9FSw">
+                                                                                  <field name="VAR" id="S+~^NlORh=*h3UCnxY%)">animation5</field>
+                                                                                </block>
+                                                                              </value>
+                                                                              <value name="KEY">
+                                                                                <shadow type="text" id="E~q|,{0Ql;LXmmbapRl|">
+                                                                                  <field name="TEXT">end</field>
+                                                                                </shadow>
+                                                                              </value>
+                                                                              <value name="VALUE">
+                                                                                <block type="math_number" id="S^^V/5saDrWZO4tJn)Bl">
+                                                                                  <field name="NUM">1390</field>
+                                                                                </block>
+                                                                              </value>
+                                                                              <next>
+                                                                                <block type="console.log" id="U9vK:x-tT@PN}sn-0kLn">
+                                                                                  <value name="VALUE">
+                                                                                    <shadow type="text">
+                                                                                      <field name="TEXT">Hello, Verge!</field>
+                                                                                    </shadow>
+                                                                                    <block type="variables_get" id="Ae%w=F9!A38p%uK1nTl[">
+                                                                                      <field name="VAR" id="S+~^NlORh=*h3UCnxY%)">animation5</field>
+                                                                                    </block>
+                                                                                  </value>
+                                                                                  <next>
+                                                                                    <block type="variables_set" id="I_fBF}4`7t0]D:P*HlBf">
+                                                                                      <field name="VAR" id="P%aeE.:Qu`M@|t2BdCpL">animation6</field>
+                                                                                      <value name="VALUE">
+                                                                                        <block type="dictCreateEmpty" id=".5d2]4!+~.QY~svO5/:U"/>
+                                                                                      </value>
+                                                                                      <next>
+                                                                                        <block type="dictSet" id="CM}T5r;@H^R=0]b26hB~">
+                                                                                          <value name="DICT">
+                                                                                            <block type="variables_get" id="Yks--,GS=sv~!tmkCPKM">
+                                                                                              <field name="VAR" id="P%aeE.:Qu`M@|t2BdCpL">animation6</field>
+                                                                                            </block>
+                                                                                          </value>
+                                                                                          <value name="KEY">
+                                                                                            <shadow type="text" id="SDw_zKaTsSmFZr#_k0xD">
+                                                                                              <field name="TEXT">ini</field>
+                                                                                            </shadow>
+                                                                                          </value>
+                                                                                          <value name="VALUE">
+                                                                                            <block type="math_number" id="2;02P,YO4c_BVXG:W7/m">
+                                                                                              <field name="NUM">1400</field>
+                                                                                            </block>
+                                                                                          </value>
+                                                                                          <next>
+                                                                                            <block type="dictSet" id="QZ/|Q+,nQVfq(3$xc^e(">
+                                                                                              <value name="DICT">
+                                                                                                <block type="variables_get" id="+}(:?1b*Dr7S``xhk6F$">
+                                                                                                  <field name="VAR" id="P%aeE.:Qu`M@|t2BdCpL">animation6</field>
+                                                                                                </block>
+                                                                                              </value>
+                                                                                              <value name="KEY">
+                                                                                                <shadow type="text" id="}IQAeupdm@W%aXG7eHQc">
+                                                                                                  <field name="TEXT">end</field>
+                                                                                                </shadow>
+                                                                                              </value>
+                                                                                              <value name="VALUE">
+                                                                                                <block type="math_number" id="cM^,N^ZI]tDD$Ol2tzj}">
+                                                                                                  <field name="NUM">1690</field>
+                                                                                                </block>
+                                                                                              </value>
+                                                                                              <next>
+                                                                                                <block type="console.log" id="9A}_$!:=%)8Q`fC..O1+">
+                                                                                                  <value name="VALUE">
+                                                                                                    <shadow type="text">
+                                                                                                      <field name="TEXT">Hello, Verge!</field>
+                                                                                                    </shadow>
+                                                                                                    <block type="variables_get" id="x,#@NzKtALW.q2dL~3Xp">
+                                                                                                      <field name="VAR" id="P%aeE.:Qu`M@|t2BdCpL">animation6</field>
+                                                                                                    </block>
+                                                                                                  </value>
+                                                                                                  <next>
+                                                                                                    <block type="variables_set" id="z?Al5MoN@84B8((j[ii,">
+                                                                                                      <field name="VAR" id="o:SBonLi|~KpMR/dFzMK">animation7</field>
+                                                                                                      <value name="VALUE">
+                                                                                                        <block type="dictCreateEmpty" id=".s7{zN5tAV+:Cu},9B4x"/>
+                                                                                                      </value>
+                                                                                                      <next>
+                                                                                                        <block type="dictSet" id="^a4a2G/d9xbG5d)RYFYy">
+                                                                                                          <value name="DICT">
+                                                                                                            <block type="variables_get" id="BqY(~+%}-%@bTG/VL{ye">
+                                                                                                              <field name="VAR" id="o:SBonLi|~KpMR/dFzMK">animation7</field>
+                                                                                                            </block>
+                                                                                                          </value>
+                                                                                                          <value name="KEY">
+                                                                                                            <shadow type="text" id="EFmY9!3PI}Fc38Y$.^R:">
+                                                                                                              <field name="TEXT">ini</field>
+                                                                                                            </shadow>
+                                                                                                          </value>
+                                                                                                          <value name="VALUE">
+                                                                                                            <block type="math_number" id="We~TxZ[m1JWH*JozL`gF">
+                                                                                                              <field name="NUM">1700</field>
+                                                                                                            </block>
+                                                                                                          </value>
+                                                                                                          <next>
+                                                                                                            <block type="dictSet" id="9OXc2S`A)~:;xaCE^d.}">
+                                                                                                              <value name="DICT">
+                                                                                                                <block type="variables_get" id="bO=ugE%ObS5Nu-F:T!t!">
+                                                                                                                  <field name="VAR" id="o:SBonLi|~KpMR/dFzMK">animation7</field>
+                                                                                                                </block>
+                                                                                                              </value>
+                                                                                                              <value name="KEY">
+                                                                                                                <shadow type="text" id="PS?P#Z?nNoAojc^TLn0,">
+                                                                                                                  <field name="TEXT">end</field>
+                                                                                                                </shadow>
+                                                                                                              </value>
+                                                                                                              <value name="VALUE">
+                                                                                                                <block type="math_number" id="Lzs1-o8$fgdv/4+kk!;!">
+                                                                                                                  <field name="NUM">2150</field>
+                                                                                                                </block>
+                                                                                                              </value>
+                                                                                                              <next>
+                                                                                                                <block type="console.log" id="3+1V_JfjI(T?|HmUnoR1">
+                                                                                                                  <value name="VALUE">
+                                                                                                                    <shadow type="text">
+                                                                                                                      <field name="TEXT">Hello, Verge!</field>
+                                                                                                                    </shadow>
+                                                                                                                    <block type="variables_get" id="--h#LXpa?k#AIuR8YayI">
+                                                                                                                      <field name="VAR" id="o:SBonLi|~KpMR/dFzMK">animation7</field>
+                                                                                                                    </block>
+                                                                                                                  </value>
+                                                                                                                  <next>
+                                                                                                                    <block type="variables_set" id="_bFC)x-#Ve:BNS|0WpwR">
+                                                                                                                      <field name="VAR" id="0aJos2lmJrJC~GM{c=9%">animation8</field>
+                                                                                                                      <value name="VALUE">
+                                                                                                                        <block type="dictCreateEmpty" id="o9..IGuUX}m*7wW%~t+T"/>
+                                                                                                                      </value>
+                                                                                                                      <next>
+                                                                                                                        <block type="dictSet" id="f#F-ttWS3f$D6Oep;Uh!">
+                                                                                                                          <value name="DICT">
+                                                                                                                            <block type="variables_get" id="9^tR(om|TMq2}T:7,^5m">
+                                                                                                                              <field name="VAR" id="0aJos2lmJrJC~GM{c=9%">animation8</field>
+                                                                                                                            </block>
+                                                                                                                          </value>
+                                                                                                                          <value name="KEY">
+                                                                                                                            <shadow type="text" id="kXi.P6r6wWq6_93Rlwpx">
+                                                                                                                              <field name="TEXT">ini</field>
+                                                                                                                            </shadow>
+                                                                                                                          </value>
+                                                                                                                          <value name="VALUE">
+                                                                                                                            <block type="math_number" id="20oL#t`c2e,mO5Xnj`Ky">
+                                                                                                                              <field name="NUM">2160</field>
+                                                                                                                            </block>
+                                                                                                                          </value>
+                                                                                                                          <next>
+                                                                                                                            <block type="dictSet" id="TAnx|t?5*-lU}G[=MRqj">
+                                                                                                                              <value name="DICT">
+                                                                                                                                <block type="variables_get" id="C,N9x?UbS-hIYUd9fh:9">
+                                                                                                                                  <field name="VAR" id="0aJos2lmJrJC~GM{c=9%">animation8</field>
+                                                                                                                                </block>
+                                                                                                                              </value>
+                                                                                                                              <value name="KEY">
+                                                                                                                                <shadow type="text" id="P{S+C83C_cD,~maBy^Jj">
+                                                                                                                                  <field name="TEXT">end</field>
+                                                                                                                                </shadow>
+                                                                                                                              </value>
+                                                                                                                              <value name="VALUE">
+                                                                                                                                <block type="math_number" id="HHWnT{7Kjz)=D]E3NLka">
+                                                                                                                                  <field name="NUM">2470</field>
+                                                                                                                                </block>
+                                                                                                                              </value>
+                                                                                                                              <next>
+                                                                                                                                <block type="console.log" id=":w|LE+d1cpC+CO*M:S+;">
+                                                                                                                                  <value name="VALUE">
+                                                                                                                                    <shadow type="text">
+                                                                                                                                      <field name="TEXT">Hello, Verge!</field>
+                                                                                                                                    </shadow>
+                                                                                                                                    <block type="variables_get" id="G:G4TWx{SqC9kzhpO*a(">
+                                                                                                                                      <field name="VAR" id="0aJos2lmJrJC~GM{c=9%">animation8</field>
+                                                                                                                                    </block>
+                                                                                                                                  </value>
+                                                                                                                                  <next>
+                                                                                                                                    <block type="variables_set" id="l7GhL,G/{HOsXhn3X9an">
+                                                                                                                                      <field name="VAR" id=",sD)[degSVXbitwzx]_i">animation9</field>
+                                                                                                                                      <value name="VALUE">
+                                                                                                                                        <block type="dictCreateEmpty" id="dSET0$7x_kI$=[@hRVMv"/>
+                                                                                                                                      </value>
+                                                                                                                                      <next>
+                                                                                                                                        <block type="dictSet" id="rF@Us)g*x@vx)r*=ahbE">
+                                                                                                                                          <value name="DICT">
+                                                                                                                                            <block type="variables_get" id="JsWDMgRtN1wuB/eW)=!,">
+                                                                                                                                              <field name="VAR" id=",sD)[degSVXbitwzx]_i">animation9</field>
+                                                                                                                                            </block>
+                                                                                                                                          </value>
+                                                                                                                                          <value name="KEY">
+                                                                                                                                            <shadow type="text" id="zQ]e-XjS5G-8dm;rjYI.">
+                                                                                                                                              <field name="TEXT">ini</field>
+                                                                                                                                            </shadow>
+                                                                                                                                          </value>
+                                                                                                                                          <value name="VALUE">
+                                                                                                                                            <block type="math_number" id="uYTP?S.7@#M|NvqUpt45">
+                                                                                                                                              <field name="NUM">2480</field>
+                                                                                                                                            </block>
+                                                                                                                                          </value>
+                                                                                                                                          <next>
+                                                                                                                                            <block type="dictSet" id="/iY!Q!a{4K2iF/(Zbt6k">
+                                                                                                                                              <value name="DICT">
+                                                                                                                                                <block type="variables_get" id="_(k]0fAw]o=+WJBkngIb">
+                                                                                                                                                  <field name="VAR" id=",sD)[degSVXbitwzx]_i">animation9</field>
+                                                                                                                                                </block>
+                                                                                                                                              </value>
+                                                                                                                                              <value name="KEY">
+                                                                                                                                                <shadow type="text" id="]MQ(h8ux9!JlrNEZ_6tq">
+                                                                                                                                                  <field name="TEXT">end</field>
+                                                                                                                                                </shadow>
+                                                                                                                                              </value>
+                                                                                                                                              <value name="VALUE">
+                                                                                                                                                <block type="math_number" id="aSJkC^}C4(UZQ`CLJMo]">
+                                                                                                                                                  <field name="NUM">2970</field>
+                                                                                                                                                </block>
+                                                                                                                                              </value>
+                                                                                                                                              <next>
+                                                                                                                                                <block type="console.log" id=":zo0yy_)_ez`3zXsOWrc">
+                                                                                                                                                  <value name="VALUE">
+                                                                                                                                                    <shadow type="text">
+                                                                                                                                                      <field name="TEXT">Hello, Verge!</field>
+                                                                                                                                                    </shadow>
+                                                                                                                                                    <block type="variables_get" id="];iWz9cg#,2Fm:-[Gqe~">
+                                                                                                                                                      <field name="VAR" id=",sD)[degSVXbitwzx]_i">animation9</field>
+                                                                                                                                                    </block>
+                                                                                                                                                  </value>
+                                                                                                                                                  <next>
+                                                                                                                                                    <block type="variables_set" id="gqAx6O`~pn,*F%z!:!12">
+                                                                                                                                                      <field name="VAR" id="8#2%N-XrdS2R6qbf)qOj">animation10</field>
+                                                                                                                                                      <value name="VALUE">
+                                                                                                                                                        <block type="dictCreateEmpty" id="kYE;~Z7I6~2X5f74@T*F"/>
+                                                                                                                                                      </value>
+                                                                                                                                                      <next>
+                                                                                                                                                        <block type="dictSet" id="#O$dFop6L$+.$#]H~+u%">
+                                                                                                                                                          <value name="DICT">
+                                                                                                                                                            <block type="variables_get" id="nI^1+k00LrnT@N_#%8EL">
+                                                                                                                                                              <field name="VAR" id="8#2%N-XrdS2R6qbf)qOj">animation10</field>
+                                                                                                                                                            </block>
+                                                                                                                                                          </value>
+                                                                                                                                                          <value name="KEY">
+                                                                                                                                                            <shadow type="text" id="7wC8vj`LPd?xw}^6/Br/">
+                                                                                                                                                              <field name="TEXT">ini</field>
+                                                                                                                                                            </shadow>
+                                                                                                                                                          </value>
+                                                                                                                                                          <value name="VALUE">
+                                                                                                                                                            <block type="math_number" id="mmJRom4a7,hAv1`s,*Qw">
+                                                                                                                                                              <field name="NUM">2980</field>
+                                                                                                                                                            </block>
+                                                                                                                                                          </value>
+                                                                                                                                                          <next>
+                                                                                                                                                            <block type="dictSet" id="wbDmqO!H[rNWnLGooW+=">
+                                                                                                                                                              <value name="DICT">
+                                                                                                                                                                <block type="variables_get" id="TVg)QT9l*C[m01c)4EtL">
+                                                                                                                                                                  <field name="VAR" id="8#2%N-XrdS2R6qbf)qOj">animation10</field>
+                                                                                                                                                                </block>
+                                                                                                                                                              </value>
+                                                                                                                                                              <value name="KEY">
+                                                                                                                                                                <shadow type="text" id="2P)PbAL}iN[|aJ1kFD3N">
+                                                                                                                                                                  <field name="TEXT">end</field>
+                                                                                                                                                                </shadow>
+                                                                                                                                                              </value>
+                                                                                                                                                              <value name="VALUE">
+                                                                                                                                                                <block type="math_number" id="i]xceyWb2gdv4jYG]xCY">
+                                                                                                                                                                  <field name="NUM">3260</field>
+                                                                                                                                                                </block>
+                                                                                                                                                              </value>
+                                                                                                                                                              <next>
+                                                                                                                                                                <block type="console.log" id="5SNJS~l4.e(.7A8^EXE?">
+                                                                                                                                                                  <value name="VALUE">
+                                                                                                                                                                    <shadow type="text">
+                                                                                                                                                                      <field name="TEXT">Hello, Verge!</field>
+                                                                                                                                                                    </shadow>
+                                                                                                                                                                    <block type="variables_get" id="tc`gH1OcZY3pu8a?~ba2">
+                                                                                                                                                                      <field name="VAR" id="8#2%N-XrdS2R6qbf)qOj">animation10</field>
+                                                                                                                                                                    </block>
+                                                                                                                                                                  </value>
+                                                                                                                                                                  <next>
+                                                                                                                                                                    <block type="variables_set" id="c|}=}?;#5|2Goetxo*]A">
+                                                                                                                                                                      <field name="VAR" id="n~b;CgEt`5FL3(mNM7X7">animation11</field>
+                                                                                                                                                                      <value name="VALUE">
+                                                                                                                                                                        <block type="dictCreateEmpty" id="N9RqmF}riIZPGv7{kxFO"/>
+                                                                                                                                                                      </value>
+                                                                                                                                                                      <next>
+                                                                                                                                                                        <block type="dictSet" id="D:yoF2Ju0ibAy*$^_^nm">
+                                                                                                                                                                          <value name="DICT">
+                                                                                                                                                                            <block type="variables_get" id="4fN,(0InAzj]-FUF@N@P">
+                                                                                                                                                                              <field name="VAR" id="n~b;CgEt`5FL3(mNM7X7">animation11</field>
+                                                                                                                                                                            </block>
+                                                                                                                                                                          </value>
+                                                                                                                                                                          <value name="KEY">
+                                                                                                                                                                            <shadow type="text" id="~cOsx}BSMP~@nSOS~,LV">
+                                                                                                                                                                              <field name="TEXT">ini</field>
+                                                                                                                                                                            </shadow>
+                                                                                                                                                                          </value>
+                                                                                                                                                                          <value name="VALUE">
+                                                                                                                                                                            <block type="math_number" id="D?vr_RW)km:iLY-sCW!w">
+                                                                                                                                                                              <field name="NUM">3270</field>
+                                                                                                                                                                            </block>
+                                                                                                                                                                          </value>
+                                                                                                                                                                          <next>
+                                                                                                                                                                            <block type="dictSet" id="*Q=5Z@,TvFvX~;[~g:6|">
+                                                                                                                                                                              <value name="DICT">
+                                                                                                                                                                                <block type="variables_get" id=".Q0b|2VFGs_c|hE4y`Y(">
+                                                                                                                                                                                  <field name="VAR" id="n~b;CgEt`5FL3(mNM7X7">animation11</field>
+                                                                                                                                                                                </block>
+                                                                                                                                                                              </value>
+                                                                                                                                                                              <value name="KEY">
+                                                                                                                                                                                <shadow type="text" id="l{e{+D~eaSX^_aNN2m!+">
+                                                                                                                                                                                  <field name="TEXT">end</field>
+                                                                                                                                                                                </shadow>
+                                                                                                                                                                              </value>
+                                                                                                                                                                              <value name="VALUE">
+                                                                                                                                                                                <block type="math_number" id="XG[u}s^IEx9OS1ERFSve">
+                                                                                                                                                                                  <field name="NUM">3580</field>
+                                                                                                                                                                                </block>
+                                                                                                                                                                              </value>
+                                                                                                                                                                              <next>
+                                                                                                                                                                                <block type="console.log" id="aBl@LU}x]d_du5/(X#|N">
+                                                                                                                                                                                  <value name="VALUE">
+                                                                                                                                                                                    <shadow type="text">
+                                                                                                                                                                                      <field name="TEXT">Hello, Verge!</field>
+                                                                                                                                                                                    </shadow>
+                                                                                                                                                                                    <block type="variables_get" id="~UJi(y])QZzz3wbULR|g">
+                                                                                                                                                                                      <field name="VAR" id="n~b;CgEt`5FL3(mNM7X7">animation11</field>
+                                                                                                                                                                                    </block>
+                                                                                                                                                                                  </value>
+                                                                                                                                                                                  <next>
+                                                                                                                                                                                    <block type="variables_set" id="$gB_i(D$|N2tZEaQ%J[?">
+                                                                                                                                                                                      <field name="VAR" id="`is4xXxg=DuzIFb(Wx-o">animation12</field>
+                                                                                                                                                                                      <value name="VALUE">
+                                                                                                                                                                                        <block type="dictCreateEmpty" id=".4J.*0p.nV5C[|vN9Uh?"/>
+                                                                                                                                                                                      </value>
+                                                                                                                                                                                      <next>
+                                                                                                                                                                                        <block type="dictSet" id="}Y0~dY?-|_T]cy8Expl%">
+                                                                                                                                                                                          <value name="DICT">
+                                                                                                                                                                                            <block type="variables_get" id="G!YZIZ/E||4/*{S4?dTG">
+                                                                                                                                                                                              <field name="VAR" id="`is4xXxg=DuzIFb(Wx-o">animation12</field>
+                                                                                                                                                                                            </block>
+                                                                                                                                                                                          </value>
+                                                                                                                                                                                          <value name="KEY">
+                                                                                                                                                                                            <shadow type="text" id="gi+Ogw(Nv1E:2~{@?vh%">
+                                                                                                                                                                                              <field name="TEXT">ini</field>
+                                                                                                                                                                                            </shadow>
+                                                                                                                                                                                          </value>
+                                                                                                                                                                                          <value name="VALUE">
+                                                                                                                                                                                            <block type="math_number" id="fr60|{};@]TixU(ia$Kw">
+                                                                                                                                                                                              <field name="NUM">3590</field>
+                                                                                                                                                                                            </block>
+                                                                                                                                                                                          </value>
+                                                                                                                                                                                          <next>
+                                                                                                                                                                                            <block type="dictSet" id="8j4oHO0c=h|5iTJZVk`f">
+                                                                                                                                                                                              <value name="DICT">
+                                                                                                                                                                                                <block type="variables_get" id="O;#`e{WvtBj;)Zmbgh($">
+                                                                                                                                                                                                  <field name="VAR" id="`is4xXxg=DuzIFb(Wx-o">animation12</field>
+                                                                                                                                                                                                </block>
+                                                                                                                                                                                              </value>
+                                                                                                                                                                                              <value name="KEY">
+                                                                                                                                                                                                <shadow type="text" id="cJCHy?x2CqpP!$K9iOfp">
+                                                                                                                                                                                                  <field name="TEXT">end</field>
+                                                                                                                                                                                                </shadow>
+                                                                                                                                                                                              </value>
+                                                                                                                                                                                              <value name="VALUE">
+                                                                                                                                                                                                <block type="math_number" id="R$)Ums,D/UBDi9EE*aV5">
+                                                                                                                                                                                                  <field name="NUM">3800</field>
+                                                                                                                                                                                                </block>
+                                                                                                                                                                                              </value>
+                                                                                                                                                                                              <next>
+                                                                                                                                                                                                <block type="console.log" id="}?FTtD=VuQ6qguNGx5.S">
+                                                                                                                                                                                                  <value name="VALUE">
+                                                                                                                                                                                                    <shadow type="text">
+                                                                                                                                                                                                      <field name="TEXT">Hello, Verge!</field>
+                                                                                                                                                                                                    </shadow>
+                                                                                                                                                                                                    <block type="variables_get" id="esN8b!}o*@eQ@ogF]?+l">
+                                                                                                                                                                                                      <field name="VAR" id="`is4xXxg=DuzIFb(Wx-o">animation12</field>
+                                                                                                                                                                                                    </block>
+                                                                                                                                                                                                  </value>
+                                                                                                                                                                                                </block>
+                                                                                                                                                                                              </next>
+                                                                                                                                                                                            </block>
+                                                                                                                                                                                          </next>
+                                                                                                                                                                                        </block>
+                                                                                                                                                                                      </next>
+                                                                                                                                                                                    </block>
+                                                                                                                                                                                  </next>
+                                                                                                                                                                                </block>
+                                                                                                                                                                              </next>
+                                                                                                                                                                            </block>
+                                                                                                                                                                          </next>
+                                                                                                                                                                        </block>
+                                                                                                                                                                      </next>
+                                                                                                                                                                    </block>
+                                                                                                                                                                  </next>
+                                                                                                                                                                </block>
+                                                                                                                                                              </next>
+                                                                                                                                                            </block>
+                                                                                                                                                          </next>
+                                                                                                                                                        </block>
+                                                                                                                                                      </next>
+                                                                                                                                                    </block>
+                                                                                                                                                  </next>
+                                                                                                                                                </block>
+                                                                                                                                              </next>
+                                                                                                                                            </block>
+                                                                                                                                          </next>
+                                                                                                                                        </block>
+                                                                                                                                      </next>
+                                                                                                                                    </block>
+                                                                                                                                  </next>
+                                                                                                                                </block>
+                                                                                                                              </next>
+                                                                                                                            </block>
+                                                                                                                          </next>
+                                                                                                                        </block>
+                                                                                                                      </next>
+                                                                                                                    </block>
+                                                                                                                  </next>
+                                                                                                                </block>
+                                                                                                              </next>
+                                                                                                            </block>
+                                                                                                          </next>
+                                                                                                        </block>
+                                                                                                      </next>
+                                                                                                    </block>
+                                                                                                  </next>
+                                                                                                </block>
+                                                                                              </next>
+                                                                                            </block>
+                                                                                          </next>
+                                                                                        </block>
+                                                                                      </next>
+                                                                                    </block>
+                                                                                  </next>
+                                                                                </block>
+                                                                              </next>
+                                                                            </block>
+                                                                          </next>
+                                                                        </block>
+                                                                      </next>
+                                                                    </block>
+                                                                  </next>
+                                                                </block>
+                                                              </next>
+                                                            </block>
+                                                          </next>
+                                                        </block>
+                                                      </next>
+                                                    </block>
+                                                  </next>
+                                                </block>
+                                              </next>
+                                            </block>
+                                          </next>
+                                        </block>
+                                      </next>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <tab name="animations" type="SecondaryTab" active="true" scrollx="378.25786949780377" scrolly="133.68849076164497" scale="1">
+    <variables xmlns="https://developers.google.com/blockly/xml">
+      <variable id="6ppu,H{1t,s)Kqwrn$vf" type="">animation_counter</variable>
+      <variable id="3G)+1H!JAVE/Bu,:V)7o" type="">obj_animación1</variable>
+      <variable id="DnPQjlT=.OZ{y+O!P9ur" type="">animation1</variable>
+      <variable id="ejP?k#_f:Zl/$|VlP_!r" type="">animation2</variable>
+    </variables>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="%6mA3_ptqO+hd7MkADQ*" disabled="true" x="970" y="-510">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" enableifmissed="false"></mutation>
+      <value name="VALUE">
+        <block type="objectList" id="4;+p+]Yy!3FpK2qA(/YH">
+          <field name="FIELDNAME">mesa_trabajo</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="console.log" id="91q-VcI0jSGPP485:~SQ">
+          <value name="VALUE">
+            <shadow type="text" id="Fq7zyU4V-!%xzlLypsOw">
+              <field name="TEXT">Hello, Verge!</field>
+            </shadow>
+            <block type="variables_get" id="cC%P/0T/RP7#=d]DAfK7">
+              <field name="VAR" id="6ppu,H{1t,s)Kqwrn$vf">animation_counter</field>
+            </block>
+          </value>
+          <next>
+            <block type="controls_ifelse" id="hrZJPO|f,M4E5lFhKl+Q">
+              <value name="IF0">
+                <block type="logic_compare" id=")ELBZ^^Ha2cG~-Lky$F`">
+                  <field name="OP">EQ</field>
+                  <value name="A">
+                    <block type="variables_get" id="EG:$+hq@S9GK]rCO/]rI">
+                      <field name="VAR" id="6ppu,H{1t,s)Kqwrn$vf">animation_counter</field>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <block type="math_number" id="${xi*a@O,Va4[1[*ewP3">
+                      <field name="NUM">0</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+              <statement name="DO0">
+                <block type="playSound" id="#+e-ydO..R4)QQz{=M?b">
+                  <field name="LOOP">FALSE</field>
+                  <value name="VALUE">
+                    <block type="loadSoundAdv" id="C)4=eIdb=}nPT;s)DwDU">
+                      <value name="URL">
+                        <shadow type="text" id="qltb;mg5W,wn?3Iz:}4X">
+                          <field name="TEXT">./sounds/desmontaje 01.mpeg</field>
+                        </shadow>
+                      </value>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="lookAt" id=",E_vmZuS$~9X|S1#xddH">
+                      <value name="DURATION">
+                        <shadow type="math_number" id="*C%7HZwdM8x=V)C=yT?y">
+                          <field name="NUM">1</field>
+                        </shadow>
+                      </value>
+                      <next>
+                        <block type="playAnimationAdv" id="S:Yn:KCZpSx]BoFrkq$[">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+                          <field name="REVERSED">FALSE</field>
+                          <field name="LOOP">LoopOnce</field>
+                          <value name="VALUE">
+                            <block type="animationList" id="Vl8!D)TT8c=IC`#H)cgM">
+                              <field name="FIELDNAME">Armature</field>
+                            </block>
+                          </value>
+                          <value name="FROM">
+                            <block type="dictGet" id="qSc8[wM2wOS2kaJ|tq,-">
+                              <value name="DICT">
+                                <block type="variables_get" id="9[K,D-kiM@mFF0Y%8A]9">
+                                  <field name="VAR" id="DnPQjlT=.OZ{y+O!P9ur">animation1</field>
+                                </block>
+                              </value>
+                              <value name="KEY">
+                                <shadow type="text" id="@oPTKee:/qQx9?dwt6Pp">
+                                  <field name="TEXT">ini</field>
+                                </shadow>
+                              </value>
+                            </block>
+                          </value>
+                          <value name="TO">
+                            <block type="dictGet" id="3oT0He$vf=gp+*m~oPoO">
+                              <value name="DICT">
+                                <block type="variables_get" id="P.an6~Waa~HOuQ7D-*,(">
+                                  <field name="VAR" id="DnPQjlT=.OZ{y+O!P9ur">animation1</field>
+                                </block>
+                              </value>
+                              <value name="KEY">
+                                <shadow type="text" id="B:X0Fqf:k5n3v1ZX9^el">
+                                  <field name="TEXT">end</field>
+                                </shadow>
+                              </value>
+                            </block>
+                          </value>
+                          <statement name="DO">
+                            <block type="variables_set" id="]SaWX.AVMa:~okN1{2W?">
+                              <field name="VAR" id="6ppu,H{1t,s)Kqwrn$vf">animation_counter</field>
+                              <value name="VALUE">
+                                <block type="math_number" id=")bx:K%{)g|{9n%d671$V">
+                                  <field name="NUM">1</field>
+                                </block>
+                              </value>
+                              <next>
+                                <block type="console.log" id="@csHSiT=#C$aZtgriO9j">
+                                  <value name="VALUE">
+                                    <shadow type="text" id="FpYw7i@cclM8pn@8D36#">
+                                      <field name="TEXT">Hello, Verge!</field>
+                                    </shadow>
+                                    <block type="variables_get" id="-G(clwK36aWTGoqGP*6V">
+                                      <field name="VAR" id="6ppu,H{1t,s)Kqwrn$vf">animation_counter</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </next>
+                            </block>
+                          </statement>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </statement>
+              <statement name="ELSE">
+                <block type="controls_ifelse" id="8jRZW6yeS^-ZN~W|qgI7">
+                  <value name="IF0">
+                    <block type="logic_compare" id="5oggQpPE,[`WLXx~Yyv]">
+                      <field name="OP">EQ</field>
+                      <value name="A">
+                        <block type="variables_get" id="?#?0g)dxjNfB{~(rcxtb">
+                          <field name="VAR" id="6ppu,H{1t,s)Kqwrn$vf">animation_counter</field>
+                        </block>
+                      </value>
+                      <value name="B">
+                        <block type="math_number" id="_9q;1~pn.r-wrh8.@vGu">
+                          <field name="NUM">1</field>
+                        </block>
+                      </value>
+                    </block>
+                  </value>
+                  <statement name="DO0">
+                    <block type="playSound" id="4omrb5GMT#q?JWNFdgnW">
+                      <field name="LOOP">FALSE</field>
+                      <value name="VALUE">
+                        <block type="loadSoundAdv" id="j2kA~!Aayt)p4U!4RiZD">
+                          <value name="URL">
+                            <shadow type="text" id="}B6o;]/J0DSP-hF]{t_/">
+                              <field name="TEXT">./sounds/desmontaje 01.mpeg</field>
+                            </shadow>
+                          </value>
+                        </block>
+                      </value>
+                      <next>
+                        <block type="lookAt" id="H*tr?6)@P67_FN*LGS)Y">
+                          <value name="LOOKAT">
+                            <block type="objectList" id="=DQT|A%ohir)nVSwF;pi">
+                              <field name="FIELDNAME">Armature</field>
+                            </block>
+                          </value>
+                          <value name="DURATION">
+                            <shadow type="math_number" id="{k_9IB]8zYuM2vjhtY?[">
+                              <field name="NUM">1</field>
+                            </shadow>
+                          </value>
+                          <next>
+                            <block type="playAnimationAdv" id="jcm~v@u+26BiDES{0ZmP">
+                              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+                              <field name="REVERSED">FALSE</field>
+                              <field name="LOOP">LoopOnce</field>
+                              <value name="VALUE">
+                                <block type="animationList" id="8ndkTO?jpcjcrymb3@JW">
+                                  <field name="FIELDNAME">Armature</field>
+                                </block>
+                              </value>
+                              <value name="FROM">
+                                <block type="dictGet" id="N{0bwxa1s(VSnbjDus//">
+                                  <value name="DICT">
+                                    <block type="variables_get" id="_Qzi#cv6D$YW2qN#TTy7">
+                                      <field name="VAR" id="ejP?k#_f:Zl/$|VlP_!r">animation2</field>
+                                    </block>
+                                  </value>
+                                  <value name="KEY">
+                                    <shadow type="text" id="OZCMpApmXJ~;b#YjKw`b">
+                                      <field name="TEXT">ini</field>
+                                    </shadow>
+                                  </value>
+                                </block>
+                              </value>
+                              <value name="TO">
+                                <block type="dictGet" id="kD4GWbUu8j%{@h+5fN`L">
+                                  <value name="DICT">
+                                    <block type="variables_get" id="h~a#5D|f;`oJkgf/lbLy">
+                                      <field name="VAR" id="ejP?k#_f:Zl/$|VlP_!r">animation2</field>
+                                    </block>
+                                  </value>
+                                  <value name="KEY">
+                                    <shadow type="text" id="RjyTW--tHt=8o.d,[-mT">
+                                      <field name="TEXT">end</field>
+                                    </shadow>
+                                  </value>
+                                </block>
+                              </value>
+                              <statement name="DO">
+                                <block type="variables_set" id="R]iQ8QWL]Z:=Os19Hkr0">
+                                  <field name="VAR" id="6ppu,H{1t,s)Kqwrn$vf">animation_counter</field>
+                                  <value name="VALUE">
+                                    <block type="math_number" id="tWZ]@?~3|eA*p{ii{S4o">
+                                      <field name="NUM">2</field>
+                                    </block>
+                                  </value>
+                                  <next>
+                                    <block type="console.log" id="5IV]xrKDvcP8NYKFTnq{">
+                                      <value name="VALUE">
+                                        <shadow type="text">
+                                          <field name="TEXT">Hello, Verge!</field>
+                                        </shadow>
+                                        <block type="variables_get" id="NE3~tKN4N{s-dKjL4RT]">
+                                          <field name="VAR" id="6ppu,H{1t,s)Kqwrn$vf">animation_counter</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </next>
+                                </block>
+                              </statement>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </statement>
+                </block>
+              </statement>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="VpVs73_@UD[7u3TB+]f{" disabled="true" x="-350" y="-70">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" enableifmissed="false"></mutation>
+      <value name="VALUE">
+        <block type="objectList" id=":-AX+{x5))T2m(C`j=5j">
+          <field name="FIELDNAME">Armature</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="lookAt" id="oYhTRj~rH=2;`L7)M|nZ">
+          <value name="LOOKAT">
+            <block type="objectList" id="QZX$i,/hd-^LBsMPI0;Q">
+              <field name="FIELDNAME">Armature</field>
+            </block>
+          </value>
+          <value name="DURATION">
+            <shadow type="math_number" id="KBWFuV63lH]9,LfL=CkU">
+              <field name="NUM">1</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="dragMove" id="z%!KotA{|uw9x/fVbdI$">
+              <field name="MODE">X</field>
+              <value name="TARGETOBJ">
+                <block type="objectList" id="J1JLD{g.3_;MH7Uok`Z(">
+                  <field name="FIELDNAME">Armature</field>
+                </block>
+              </value>
+              <next>
+                <block type="setAnimationFrame" id="%V$m0~$#dcv(EbiS%SD+">
+                  <value name="VALUE">
+                    <block type="animationList" id="8qddjyGn:MLa9}mtxq%n">
+                      <field name="FIELDNAME">Armature</field>
+                    </block>
+                  </value>
+                  <value name="FROM">
+                    <block type="getObjTransform" id=";LHS|CKV?BWKd3Urtx=m">
+                      <field name="MODE">position</field>
+                      <field name="COORD">x</field>
+                      <value name="TARGETOBJ">
+                        <block type="objectList" id="fFdrco@;VHlb~4F|,nGk">
+                          <field name="FIELDNAME">Armature</field>
+                        </block>
+                      </value>
+                    </block>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="RBL/q!;wSZl?7S1*TmrI" x="-270" y="310">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" enableifmissed="false"></mutation>
+      <value name="VALUE">
+        <block type="objectList" id="oPJk^$L:bb`u|B(=KO[@">
+          <field name="FIELDNAME">mesa_trabajo</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="animateParam" id="AA+Hu3XpA4([LGa_fR/8">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+          <field name="EASING">Linear</field>
+          <field name="EASING2">InOut</field>
+          <field name="YOYO">FALSE</field>
+          <value name="FROM">
+            <block type="math_number" id="oB!A+@D3qPgo@KHvUcqq">
+              <field name="NUM">0</field>
+            </block>
+          </value>
+          <value name="TO">
+            <block type="math_number" id="-AHae56^|hiSWy.J-;aw">
+              <field name="NUM">1000</field>
+            </block>
+          </value>
+          <value name="DURATION">
+            <block type="math_number" id="o^5[4hW|])tKcgI9,;74">
+              <field name="NUM">4</field>
+            </block>
+          </value>
+          <value name="REPEAT">
+            <block type="math_number" id="Ao?]Gh6zn8-`ut`IT$0t">
+              <field name="NUM">0</field>
+            </block>
+          </value>
+          <statement name="ON_UPDATE">
+            <block type="setObjTransform" id="9U!;.kAy^arhU~Tz_!gD">
+              <field name="MODE">position</field>
+              <field name="OFFSET">FALSE</field>
+              <value name="TARGETOBJ">
+                <block type="variables_get" id="_(W+jk2/d3(G*nXpF~.[">
+                  <field name="VAR" id="3G)+1H!JAVE/Bu,:V)7o">obj_animación1</field>
+                </block>
+              </value>
+              <value name="X">
+                <block type="math_number" id="1K]S8xDk_zh$jx#j_WfV">
+                  <field name="NUM">1</field>
+                </block>
+              </value>
+            </block>
+          </statement>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <tab name="VR Mode" type="SecondaryTab" active="false" scrollx="1.1368683772161603e-13" scrolly="0" scale="0.9">
+    <variables xmlns="https://developers.google.com/blockly/xml">
+      <variable id="w+1Kz?QUQJAb51ht+6d8" type="">vr_available</variable>
+    </variables>
+    <block xmlns="https://developers.google.com/blockly/xml" type="checkVRMode" id="m)zJqc4!29lXKR4q=)V6" x="90" y="110">
+      <statement name="DO_AVAIL">
+        <block type="variables_set" id="p#Tr}zkhm]c;TLX[+C[g">
+          <field name="VAR" id="w+1Kz?QUQJAb51ht+6d8">vr_available</field>
+          <value name="VALUE">
+            <block type="logic_boolean" id="])b,Z9`Uv9#NrW|^AF$8">
+              <field name="BOOL">TRUE</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+      <statement name="DO_UNAVAIL">
+        <block type="variables_set" id="GN6KQt5=TP{_;N,JprAf">
+          <field name="VAR" id="w+1Kz?QUQJAb51ht+6d8">vr_available</field>
+          <value name="VALUE">
+            <block type="logic_boolean" id="{JVCHyCwjmSC,=2DZn@Z">
+              <field name="BOOL">FALSE</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="YTPe5ra)wpZx[}{7)C;@" x="90" y="330">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" enableifmissed="false"></mutation>
+      <value name="VALUE">
+        <block type="objectList" id="orMn5/;m:WxkCtDnStZN">
+          <field name="FIELDNAME">mesa_trabajo</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="controls_if" id="H|.cA~|,YEN=Ix]+@j%-">
+          <value name="IF0">
+            <block type="variables_get" id="MAzw`bf}]q:}K}r2~rX4">
+              <field name="VAR" id="w+1Kz?QUQJAb51ht+6d8">vr_available</field>
+            </block>
+          </value>
+          <statement name="DO0">
+            <block type="enterVRMode" id="d[|ImIY?nYq-3[^x01|d">
+              <field name="REF_SPACE">SITTING</field>
+            </block>
+          </statement>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="943.8000793457031" viewport-y="60.59999084472656" viewport-w="587.4" viewport-h="486.5" viewport-hidden="true" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

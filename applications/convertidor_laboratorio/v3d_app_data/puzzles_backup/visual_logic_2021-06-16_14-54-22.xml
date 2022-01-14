@@ -1,0 +1,87 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="715" scrolly="376.5" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="1056.033447265625" scrolly="496.49859619140625" scale="1">
+    <variables xmlns="https://developers.google.com/blockly/xml">
+      <variable id="]JH~NQqi)9ks]hs?,eq*" type="">animations</variable>
+    </variables>
+    <block xmlns="https://developers.google.com/blockly/xml" type="variables_set" id="$R|s2izqmE]c@ubvZ)hX" x="-750" y="-370">
+      <field name="VAR" id="]JH~NQqi)9ks]hs?,eq*">animations</field>
+      <value name="VALUE">
+        <block type="allObjectList" id="#lcMQoy)7-uy+tyyDng9"/>
+      </value>
+      <next>
+        <block type="stopAnimation" id="l:UxfqRFnN^#BC$iIkD*">
+          <value name="VALUE">
+            <shadow type="animationList" id="mFUbdx,e5o0`;or]HT2B">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="variables_get" id="eKo|Jn]tr^vCWtjnV7q2">
+              <field name="VAR" id="]JH~NQqi)9ks]hs?,eq*">animations</field>
+            </block>
+          </value>
+          <next>
+            <block type="hide" id="|30@8x|[K?g*4f(l!T)E">
+              <value name="VALUE">
+                <shadow type="objectList" id="^+iUp[NJ7:%iGPZH=T6C">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id=":%DUaKGZQ*q,A)sJdki/">
+                  <field name="FIELDNAME">Object12915</field>
+                </block>
+              </value>
+              <next>
+                <block type="hide" id="9aQu4Y7]wCyRD*W8KbLA">
+                  <value name="VALUE">
+                    <shadow type="objectList" id="+(jM29Q`5l=bz~pvZOpF">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="objectList" id="-hX9{g3I4pCpF$bc8rpy">
+                      <field name="FIELDNAME">Object12973</field>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="hide" id="4e)6^~fxuP.1r}cK8m]g">
+                      <value name="VALUE">
+                        <shadow type="objectList" id="v{Qg+?,xi)dg[t-=i8N#">
+                          <field name="FIELDNAME">&lt;none&gt;</field>
+                        </shadow>
+                        <block type="objectList" id=",5X[cRc/.G72(4xI8]S?">
+                          <field name="FIELDNAME">Object136</field>
+                        </block>
+                      </value>
+                      <next>
+                        <block type="hide" id="aQ^!Y|/kqHvMuC98rAq4">
+                          <value name="VALUE">
+                            <shadow type="objectList" id="vtE%(/A@+;%N2vzfT,%Q">
+                              <field name="FIELDNAME">&lt;none&gt;</field>
+                            </shadow>
+                            <block type="objectList" id="LtL6^Ip~`29+N:IsDYPH">
+                              <field name="FIELDNAME">Object12975</field>
+                            </block>
+                          </value>
+                          <next>
+                            <block type="hide" id="oxW?w(hJmuz~IEbVIe33">
+                              <value name="VALUE">
+                                <shadow type="objectList" id="f*Hx1Fe``%?3TvCrru9j">
+                                  <field name="FIELDNAME">&lt;none&gt;</field>
+                                </shadow>
+                                <block type="objectList" id="54n,bZqt%ySZ3i13~8kz">
+                                  <field name="FIELDNAME">Carcasa</field>
+                                </block>
+                              </value>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <editorsettings viewport-x="942" viewport-y="28" viewport-w="640" viewport-h="414.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
